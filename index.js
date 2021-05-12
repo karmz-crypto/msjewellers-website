@@ -10,6 +10,7 @@ const app = express();
 //app.use(express.static(__dirname+'/static_folder/html'));
 app.use(express.static(__dirname+'/static_folder/images'));
 app.use(express.static(__dirname+'/static_folder/js'));
+//app.use(express.static(__dirname+'/static_folder/css'));
 
 app.get('/',(req,res)=>{
   
