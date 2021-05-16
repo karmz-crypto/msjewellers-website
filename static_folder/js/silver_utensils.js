@@ -1,6 +1,6 @@
 $(document).ready(function(){
     console.log ('js is running');
-    $(window).scroll(scrollPage);
+    //$(window).scroll(scrollPage);
 
 }); // end of ready function 
 
