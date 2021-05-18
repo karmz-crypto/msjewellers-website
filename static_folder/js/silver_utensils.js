@@ -1,6 +1,7 @@
 $(document).ready(function(){
     console.log ('js is running');
     //$(window).scroll(scrollPage);
+    pageStyle();
 
 }); // end of ready function 
 
@@ -56,4 +57,16 @@ function offCanvas(event){
     console.log(element);
     $('#modalImg').attr('src',element.src);
     $('#exampleModalLabel').text(element.alt);
+}
+
+
+function pageStyle(){
+    activeElement = document.querySelector('.active');
+    if(activeElement.href!=='/silverUtensils'){
+        $(activeElement).removeClass('active');
+   element = document.querySelector('a[href*="/silverUtensils"]');
+    $(element).addClass('active');
+   console.log(element); 
+    }
+   //.setAttribute('class','active');
 }
