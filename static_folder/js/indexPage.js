@@ -1,7 +1,7 @@
 $(document).ready(function(){
     console.log ('js is running');
     //$(window).scroll(scrollPage);
-    pageStyle();
+    
 
 }); // end of ready function 
 
@@ -16,4 +16,8 @@ function pageStyle(){
    console.log(element); 
     }
    //.setAttribute('class','active');
-}*/
+}*/ 
+
+/*
+indexN.ejs js 
+*/
