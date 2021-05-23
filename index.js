@@ -4,9 +4,12 @@ const path = require('path');
 const morgan = require('morgan');
 const ejs = require('ejs');
 const layouts = require('express-ejs-layouts');
+//controller page links 
 const indexController = require('./controller/indexController');
 const silverUtensilsController = require('./controller/silverUtensilsController');
 const silverJewelleryController = require('./controller/silverJewelleryController');
+const imageDisplayController = require('./controller/imageDisplayController');
+//controller page link ends 
 const port = process.env.PORT || 5000;
 
 const app = express();
@@ -40,6 +43,10 @@ app.get('/silverUtensils',(req,res)=>{
 */
 app.get('/silverUtensils',silverUtensilsController.getSilverUtensils);
 app.get('/silverJewellery',silverJewelleryController.getSilverJewellery);
+app.get('/imageObjectModel',(req,res)=>{
+    res.sendFile(path.join(__dirname,'model/imageObjectModel.json'));
+});
+app.get('/image/:id',imageDisplayController.getImageDisplay);
 
 
 app.listen(port,()=>{

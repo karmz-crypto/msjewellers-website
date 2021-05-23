@@ -1,0 +1,269 @@
+[
+
+    {
+        "imageId":"su-ads-img-1",  
+        "imageTitle":"antique dinner set",
+        "imageSrc":"/silver_utensilsMobile/antique_dinner_set/img1.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_dinner_set/img1.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_dinner_set/img1.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"antique dinner set",
+        "secondaryCategory":"dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["antique dinner set",
+                        "dinner set",
+                    "dinner set as gift item","antique silver utensils"],
+        
+        "_fetchTag":"antique_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"true",
+            "coverPage":["silver utensils page"]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver dinner set with an antique polish(black) embroided with designs.",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1250grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ads-img-2",  
+        "imageTitle":"antique dinner set",
+        "imageSrc":"/silver_utensilsMobile/antique_dinner_set/img2.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_dinner_set/img2.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_dinner_set/img2.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"antique dinner set",
+        "secondaryCategory":"dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["antique dinner set",
+                        "dinner set",
+                    "dinner set as gift item","antique silver utensils"],
+        
+        "_fetchTag":"antique_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver dinner set with an antique polish(black) embroided with designs.",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1250grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+
+    {
+        "imageId":"su-ss-img-1",  
+        "imageTitle":"antique surahi set",
+        "imageSrc":"/silver_utensilsMobile/antique_surahi_set/img1.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_surahi_set/img1.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_surahi_set/img1.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "surahi set",
+                    "antique surahi set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/surahiSet",
+                        "/search/antiqueSurahiSet",
+                        "/homeDecor/#surahiSet"],
+        "primaryCategory":"antique surahi set",
+        "secondaryCategory":"surahi set",
+        "derivedCategory":["antique silver utensils","home decor"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils",
+                    "home decor"
+                    ],
+        "dynamicPageView":["surahi set",
+                             "antique surahi set"],
+        "searchTags":["antique surahi set",
+                        "surahi set",
+                    "surahi set as gift item","antique silver utensils"],
+        
+        "_fetchTag":"antique_surahi_set",
+        "_cover_image":{
+            "isCoverImage":"true",
+            "coverPage":["silver utensils page"]
+            },
+        "imageDesc":{
+            "desc":"silver surahi set with an antique polish(black) embroided with designs.",
+            "dimension":"size :height 10\" - 12\".(regular).including glass.(regular)",
+            "components":"1-surahi pot 1-glass",
+            "additionalImageInfo":"weight : 450grms-(regular size-10\")/600-700 grms(size-12\").",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+
+    {
+        "imageId":"su-ss-img-2",  
+        "imageTitle":"antique surahi set",
+        "imageSrc":"/silver_utensilsMobile/antique_surahi_set/img2.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_surahi_set/img2.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_surahi_set/img2.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "surahi set",
+                    "antique surahi set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/surahiSet",
+                        "/search/antiqueSurahiSet",
+                        "/homeDecor/#surahiSet"],
+        "primaryCategory":"antique surahi set",
+        "secondaryCategory":"surahi set",
+        "derivedCategory":["antique silver utensils","home decor"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils",
+                    "home decor"
+                    ],
+        "dynamicPageView":["surahi set",
+                             "antique surahi set"],
+        "searchTags":["antique surahi set",
+                        "surahi set",
+                    "surahi set as gift item"],
+        
+        "_fetchTag":"antique_surahi_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "desc":"silver surahi set with an antique polish(black) embroided with designs.",
+            "dimension":"size :height 10\" - 12\".(regular).including glass.(regular)",
+            "components":"1-surahi pot 1-glass",
+            "additionalImageInfo":"weight : 500grms-(regular size-10\")/700-800 grms(size-12\").",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    
+    {
+        "imageId":"su-ss-img-3",  
+        "imageTitle":"antique surahi set",
+        "imageSrc":"/silver_utensilsMobile/antique_surahi_set/img3.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_surahi_set/img3.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_surahi_set/img3.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "surahi set",
+                    "antique surahi set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/surahiSet",
+                        "/search/antiqueSurahiSet",
+                        "/homeDecor/#surahiSet"],
+        "primaryCategory":"antique surahi set",
+        "secondaryCategory":"surahi set",
+        "derivedCategory":["antique silver utensils","home decor"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils",
+                    "home decor"
+                    ],
+        "dynamicPageView":["surahi set",
+                             "antique surahi set"],
+        "searchTags":["antique surahi set",
+                        "surahi set",
+                    "surahi set as gift item"],
+        
+        "_fetchTag":"antique_surahi_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "desc":"silver surahi set with an antique polish(black) embroided with designs.",
+            "dimension":"size :height 10\" - 12\".(regular).including glass.(regular)",
+            "components":"1-surahi pot 1-glass",
+            "additionalImageInfo":"weight : 500grms-(regular size-10\")/700-800 grms(size-12\").",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    }
+
+
+   
+
+]

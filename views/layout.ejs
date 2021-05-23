@@ -14,7 +14,50 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <style>
-      body{
+
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+
+.scrollWebKit {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+.scrollWebKit::-webkit-scrollbar {
+  width: 1px;
+}
+.scrollWebKit{
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+.scrollWebKit::-webkit-scrollbar-track {
+  background: var(--scrollbarBG); 
+  border-radius: 16px;
+  width:2px;
+}
+.scrollWebKit::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 16px;
+  border: 3px solid var(--scrollbarBG);
+}
+body{
     font-family: 'Varela Round', sans-serif;
     margin: auto;
     
@@ -103,6 +146,21 @@ a:link {
                 </div>
               </nav>
         </nav>
+        
+        <div class="container shadow p-3 mb-5 bg-light"">
+          <div class="row">
+            <div class="bg-light text-capitalize text-secondary col-5" style="font-size:smaller;">
+              <a href="#" class="text-capitalize text-secondary">Explore <%= pageLabel ; %> </a>
+              
+            </div>
+            <div class="bg-light text-capitalize text-secondary col-7">
+              <h5><%= pageLabel ; %></h5>
+            </div>
+
+          </div>
+         
+          
+        </div>
     </div>
     
 
@@ -119,7 +177,7 @@ a:link {
     <div class="container my-1 bg-light">
       <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-          <p class="text-capitalize p-2 my-1 text-secondary">get connected with us on social networks :</p>
+          <p class="text-capitalize p-2 my-1 text-secondary" style="font-size: small;">get connected with us on social networks :</p>
         </div>
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 float-right p-2  my-1">
           <a href="#" class="mx-2">
@@ -170,21 +228,21 @@ a:link {
       <div class="container">
         <div class="row">
           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 my-1 p-2">
-            <h4 class="text-capitalize text-center text-decoration-underline text-secondary" >galleria</h4>
+            <h6 class="text-capitalize text-center text-decoration-underline text-secondary" >galleria</h6>
             <!--<p class="text-center text-capitalize fs-6 text-secondary">Jewellery</p>
             <p class="text-center text-capitalize fs-6">elegant and contemporary silver jewellery.</p>
             <p class="text-center text-capitalize fs-6 text-secondary">utensils</p>
             <p class="text-center text-capitalize fs-6">The ultimate indian dinnerware, barware and cutlery.</p>
             -->
-            <p class="text-center fs-6 text-secondary">
+            <p class="text-center lh-lg text-secondary" style="font-size: small;">
               <strong>Galleria</strong> is a web picture gallery, of regular and unique designs of silver art work, intended to 
               ease the sellection making process of the buyers. The gallery of images consist of diverse images
               of indian art work, matching the comtemporary designs amalgamated with vintange style of craftmanship.
 
             </p>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 my-1 p-2">
-            <h4 class="text-capitalize text-center text-secondary text-decoration-underline" >products:</h4>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 my-1 p-2" style="font-size: small;">
+            <h6 class="text-capitalize text-center text-secondary text-decoration-underline" >products:</h6>
             
               <div class="container text-center text-capitalize my-3">
                 <a href="#" class="text-secondary">
@@ -213,8 +271,8 @@ a:link {
               </div>
             
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 my-1 p-2">
-            <h4 class="text-capitalize text-center text-decoration-underline text-secondary" >useful links:</h4>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 my-1 p-2" style="font-size: small;">
+            <h6 class="text-capitalize text-center text-decoration-underline text-secondary" >useful links:</h6>
             <div class="container text-center text-capitalize my-3">
               <a href="#" class="text-secondary">
                 antique silver jewellery
@@ -246,8 +304,8 @@ a:link {
               </a>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 my-1 p-2">
-            <h4 class="text-capitalize text-center text-decoration-underline text-secondary" >contacts:</h4>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 my-1 p-2" style="font-size: small;">
+            <h6 class="text-capitalize text-center text-decoration-underline text-secondary" >contacts:</h6>
             <div class="container text-center text-secondary my-3">
               <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
@@ -276,7 +334,7 @@ a:link {
 
     <!--footer ends-->
 
-    
+   <script type="text/javascript" src="/fetchapi.js" async></script> 
   </body>
 </html>
 <!--footer section ends -->

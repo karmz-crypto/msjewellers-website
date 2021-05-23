@@ -1,1225 +1,167 @@
 
- <!--caraousel starts here -->
- <div class="container bg-white my-1 ">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/silver_utensils/carousel/silver-cutlery.jpg" class=" d-block w-100 img-fluid" alt="..." loading="eager">
+
+
+<div class="container my-2"><!--antique dinner set-->
+    <div class="row">
+        <% var i = 0; %>
+        <% imageObjectEjs_antiqueDinnerSet.forEach(obj=>{ %>
             
-         </div>
-          <div class="carousel-item">
-            <img src="/silver_utensils/carousel/jug-set.jpg" class="d-block w-100 img-fluid" alt="..." loading="eager">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mx-auto my-2"><!--2nd column-->
+                <h6 class="text-center text-secondary text-capitalize">
+                    <%=obj.imageTitle;%>
+                </h6>
+                <hr>   
+                <div class="container">
+                    <div class="row">
+                        <div class="col-7 border-end border-secondary rounded"> 
+                            <picture>
+                                <source media="(max-width:799px)" srcset="<%=obj.srcSetMobile; %>" >
+                                <source media="(min-width:800px)" srcset=<%=obj.srcSetWeb;%> >
+                                <img class="img-fluid" alt="Antique Dinner Set" data-url="silverUtensils" data-category="<%=obj.imageTitle;%>" src="<%=obj.srcSetMobile; %>">
+                            </picture>   
+                            
+                        </div>
+                        <div class="col-5">
+                            
+                            <p class="text-secondary text-capitalize" style="font-size: small;">
+                               <span class=" lh-lg"> Description : </span><br>
+                                <%= obj.imageDesc.desc ; %>
+                            </p>
+                            <p class="text-secondary text-capitalize shadow p-3 mb-5 bg-white rounded wideViewIndex" style="font-size: small;">
+                                <a  href="#fetchDiv<%=i;%>" class="btn text-secondary text-capitalize" style="font-size: small;" id="<%=obj.imageId+i;%>" data-fetch-string="<%=obj._fetchTag%>" type="submit" onclick="getImage(event)">
+                                    explore gallery of <%= obj.imageTitle; %>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container">
+                       
+                        <p class="text-capitalize text-secondary" style="font-size: small;">
+                            <span class=" lh-lg">Size :</span> <%= obj.imageDesc.dimension; %> <br>
+                            <span class=" lh-lg">components :</span> <%= obj.imageDesc.components; %>
+                            <a class="mx-2 shadow p-1 mb-5 bg-white rounded" data-bs-toggle="collapse"  role="button" aria-expanded="false" aria-controls="<%="collapseExample"+i; %>" href="<%="#collapseExample"+i; %>">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#cccc00" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                                </svg>
+                            </a>
+                            <div class="collapse" id="<%="collapseExample"+i; %>">
+                                <div class="card card-body text-capitalize text-secondary" style="font-size: small;">
+                                  <%= obj.imageDesc.additionalImageInfo; %>
+                                </div>
+                              </div>
+                            
+                        </p>
+                        <p class="text-capitalize text-secondary lh-lg" style="font-size: smaller;">
+                            <!--category(var)-->category :
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="blue" class="bi bi-link" viewBox="0 0 16 16">
+                                <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+                                <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                              </svg><br>
+                              <% var k=0;%>
+                              <% obj.category.forEach(cat=>{%>
+                                
+                                <a href="<%=obj._url[k]%>" ><%= cat; %></a> <br>
+                              <% k+=1; });%>
+                              
+                            <!--<br>antique silver utensils,<br> dinner set,<br> antique dinner set,<br> silver utensils-->
+                        </p>
+                    </div>
+                    <div class="container" >
+                        <p class="text-secondary text-capitalize shadow p-3 mb-5 bg-white rounded mobileViewIndex" style="font-size: small;">
+                            
+                            <button class="btn text-secondary" style="font-size: small;" id="<%=obj.imageId;%>" data-fetch-string="<%=obj._fetchTag%>" title="<%= obj.imageTitle;%>" type="submit" onclick="getImage(event)">
+                                explore gallery of <%= obj.imageTitle; %>
+                            </button>
+                        </p>
+                    </div>
+                </div> 
+                <!--container to display fetched image -->
+                <div id="fetchDiv<%=i;%>" ></div>
+
+                <div class="container my-1 d-none" id="<%=obj._fetchTag;%>">
+                    <h6 class="text-capitalize text-secondary p-2 my-1">gallery of <%=obj.imageTitle;%></h6>
+                    <hr>
+                    <div class="container scrollWebKit <%=obj._fetchTag;%>  shadow p-3 mb-5 bg-white rounded " style="overflow: auto; white-space: nowrap;">
+                        
+                    </div>
+                </div>  <!--fetch container div close--> 
+                
+                 
+            </div><!--end of 1st column-->
+
             
-          </div>
-          <div class="carousel-item">
-            <img src="/silver_utensils/carousel/tea-set.jpg" class=" img-fluid d-block w-100" alt="..." loading="eager">
+           
+
+        <% i+=1; }) ; %><!--this ends the top forEach function and the variable i manipulates the id's so that id's are unique-->
+
+        
             
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      </div>
-<!--caraousel ends here-->
-<div class="container">
-  <hr>
-</div>
 
-
-
-
-    <!--trial-->
-    <!--accordian of history of silverware manufacturing starts-->
-    <div class="container border-bottom border-secondary my-2 rounded-bottom border-2">
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item border-primary my-1 ">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordianCollapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Silverware Manufacturing In India : Know a Bit About It.
-          </button>
-        </h2>
-        <div id="accordianCollapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
+       <!-- <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mx-auto">
+            <h6 class="text-center text-secondary text-capitalize">
+                Antique Dinner Set 
+            </h6>
+            <hr>   
             <div class="container">
-              <div class="row"><!--accordian body container row-->
-                <div class="col-md-8 col-sm-12"><!--1st column -->
-                  <p class="text-center">
-                    The tradition of using decorative and utilitarian 
-                    pieces of silver in India is an ancient one. Silver 
-                    articles come in a lot of variety; silver glasses, crockery, pots, utensils, 
-                    candle stands, photo frames, mugs, trays etc, decorative items such as small 
-                    figurines of deities, engraved boxes, perfume bottles etc are also made from silver.</p>
-                    <p><strong>Silver Art in India</strong></p>
-                      <p>Each region has its particular and unique
-                     traditions pertaining to silverware:
-
-                      Rajasthan is not only famous for its ethnic gold and silver
-                      jewelery the world over, but it is also known for exquisite 
-                      silver articles like carved silver boxes, cigarette cases, 
-                      perfume bottles etc. Intricately carved animals, chariots etc are also produced 
-                      here and exported abroad. Jaipur is the main center for articles made out of silver.
-
-                      Orissa and Andhra Pradesh are known for silver filigree work. 
-                      Intricately twisted strands of silver are braided together and then hammered into 
-                      gentle lattice patterns of frail artistic beauty. Utilitarian items such as key chains, boxes, 
-                      pots, trays, etc are adorned with silver filigree work.
-                      <p class="text-secondary"><em>Credit : india-crafts.com</em></p>
-                  </p>
-                </div><!--end of 1st column-->
-                <div class="col-md-4 col-sm-12 border-start border-primary"><!--2nd column-->
-                  <div class="container my-2">
-                    <div class="row"><!--row 1-->
-                      <div class="col-4">
-                        <img src="/silver_utensils/antique_dinner_set/img7.jpg" class="img-fluid  alt="...">
-                      </div>
-                      <div class="col-4">
-                        <img src="/silver_utensils/antique_dinner_set/img12.jpg" class="img-fluid " alt="...">
-                      </div>
-                      <div class="col-4">
-                        <img src="/silver_utensils/antique_dinner_set/img3.jpg" class="img-fluid" alt="...">
-                      </div>
-                    </div><!--row 1 ends-->
-                    <div class="row"><!--row 2-->
-                      <div class="col-4">
-                        <img src="/silver_utensils/surahi_set/img1.jpg" class="img-fluid  alt="...">
-                      </div>
-                      <div class="col-4">
-                        <img src="/silver_utensils/plain_white_dinner_set/img4.jpg" class="img-fluid " alt="...">
-                      </div>
-                      <div class="col-4">
-                        <img src="/silver_utensils/fruit_bowl/img3.jpg" class="img-fluid" alt="...">
-                      </div>
-                    </div><!--row 2 ends-->
-                    <div class="row"><!--row 3-->
-                      <div class="col-4">
-                        <img src="/silver_utensils/jug_set_glass_set/img21.jpg" class="img-fluid  alt="...">
-                      </div>
-                      <div class="col-4">
-                        <img src="/silver_utensils/jug_set_glass_set/img1.jpg" class="img-fluid " alt="...">
-                      </div>
-                      <div class="col-4">
-                        <img src="/silver_utensils/antique_dinner_set/img3.jpg" class="img-fluid" alt="...">
-                      </div>
-                    </div><!--row 3 ends-->
-                    <div class="row"><!--row 4-->
-                      <div class="col-4">
-                        <img src="/silver_utensils/silver_cutlery/img7.jpg" class="img-fluid  alt="...">
-                      </div>
-                      <div class="col-4">
-                        <img src="/silver_utensils/antique_dinner_set/img6.jpg" class="img-fluid " alt="...">
-                      </div>
-                      <div class="col-4">
-                        <img src="/silver_utensils/plain_white_dinner_set/img8.jpg" class="img-fluid" alt="...">
-                      </div>
-                    </div><!--row 4 ends-->
-                  </div><!--2nd column container div-->
-                </div><!--end of 2nd column-->
-              </div><!--accordian body container row div-->
-            </div><!--container within accordian body div-->
-          </div><!--accordian body div-->
-        </div><!--accordian collapse div-->
-      </div><!--accordian item div-->
-    </div><!--accordian class div-->
-    </div><!--top container-->
-
-    <!--accordian of history of silverware manufacturing ends-->
-
-
-    <!--dinner set section begins here-->
-  <div class="container bg-light my-1 p-2">
-      <a id="dinnerSet"><h3 class="text-center text-capitalize">Dinner Set : Antique & Plain</h3></a>
-  </div>
-    <div class="container my-1 bg-light">
-      <div class="row">
-        <div class="col-4">
-          <img src="/silver_utensils/antique_dinner_set/img7.jpg" class="img-fluid mx-auto" alt="..." loading="eager">
-        </div>
-        <div class="col-4">
-          <img src="/silver_utensils/plain_white_dinner_set/img1.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-        </div>
-        <div class="col-4">
-          <img src="/silver_utensils/antique_dinner_set/img6.jpg" class="d-block w-100" alt="..."  loading="eager">
-        </div>
-      </div>
-    </div>
-      <div class="container my-1">
-      <div class="row my-2 bg-light">
-        <div class="col">
-          <button class="btn btn-outline-primary text-capitalize m-1" type="button" data-bs-toggle="collapse" data-bs-target="#antiqueDinnerSetCollapse" aria-expanded="false" aria-controls="collapseExample">
-            click to explore antique dinner sets
-          </button>
-          <button class="btn btn-outline-primary text-capitalize m-1" type="button" data-bs-toggle="collapse" data-bs-target="#plainWhiteDinnerSetCollapse" aria-expanded="false" aria-controls="collapseExample">
-            click to explore plain opni & high polish nakashi dinner sets
-          </button>
-        </div>
-      </div>
-    </div>
-    <!--antique dinner set collapse starts -->
-
-    <div class="collapse container bg-light my-1" id="antiqueDinnerSetCollapse">
-      <div class="conatiner text-capitalize text-center my-1"><h3>antique dinner set</h3></div>
-      <div class="card card-body">
-        <div class="container bg-light my-1">
-          <div class="row"><!--row 1-->
-              <div class="col-xl-3 col-lg-3 col-md-6 my-1 my-1">
-                <img src="/silver_utensils/antique_dinner_set/img1.jpg" class="img-fluid" alt="..."  loading="eager">
-                  <div class="container my-1 bg-white">
-                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img1.jpg','Antique Dinner Set')">
-                      Click For Details
-                    </button>
-                  </div>    
-              </div>
-              <div class="col-md-6 col-xl-3 col-lg-3 my-1">  
-                <img src="/silver_utensils/antique_dinner_set/img2.jpg" class="img-fluid" alt="..."  loading="eager">
-                <div class="container my-1 bg-white">
-                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img2.jpg','Antique Dinner Set')">
-                Click For Details
-                  </button>
+                <div class="row">
+                    <div class="col-7 border-end border-secondary rounded">
+                        <picture>
+                            <img src="/silver_utensils/antique_dinner_set/img2.jpg" class="img-fluid" alt="Antique Dinner Set" data-url="silverUtensils" data-category="silverUtensils">
+                        </picture>
+                        
+                    </div>
+                    <div class="col-5">
+                        
+                        <p class="text-secondary text-capitalize" style="font-size: small;">
+                           <span class=" lh-lg"> Description : </span><br>
+                            silver dinner plate with an antique polish(black) embroided with designs.
+                        </p>
+                        <p class="text-secondary text-capitalize shadow p-3 mb-5 bg-white rounded wideViewIndex" style="font-size: small;">
+                            explore galary of antique dinner set
+                        </p>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-                  
-                <img src="/silver_utensils/antique_dinner_set/img3.jpg" class="img-fluid" alt="..."  loading="eager">
-                <div class="container my-1 bg-white">
-                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img3.jpg','Antique Dinner Set')">
-                Click For Details
-                  </button>
-                </div>
-              </div>
-              <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-                  
-                <img src="/silver_utensils/antique_dinner_set/img4.jpg" class="img-fluid" alt="..."  loading="eager">
-                <div class="container my-1 bg-white">
-                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img4.jpg','Antique Dinner Set')">
-                Click For Details
-                  </button>
-                </div>
-              </div>
-          </div><!--end of row 1-->
-
-          <div class="row"><!--row 2-->
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-                
-                    <img src="/silver_utensils/antique_dinner_set/img5.jpeg" class="img-fluid" alt="...">
-                    <div class="container my-1 bg-white">
-                      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img5.jpeg','Antique Dinner Set')">
-                    Click For Details
-                      </button>
-                    </div>  
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-                
-              <img src="/silver_utensils/antique_dinner_set/img6.jpg" class="img-fluid" alt="...">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img6.jpg','Antique Dinner Set')">
-              Click For Details
-                </button>
-              </div>
-        
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-                
-              <img src="/silver_utensils/antique_dinner_set/img7.jpg" class="img-fluid" alt="...">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img7.jpg','Antique Dinner Set')">
-              Click For Details
-                </button>
-              </div>
-                  
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-                
-              <img src="/silver_utensils/antique_dinner_set/img8.jpg" class="img-fluid" alt="...">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img8.jpg','Antique Dinner Set')">
-              Click For Details
-                </button>
-              </div>
-        
-            </div>
-        </div><!--end of row 2-->
-
-        <div class="row"><!--row 3-->
-          <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              
-            <img src="/silver_utensils/antique_dinner_set/img9.jpg" class="img-fluid" alt="...">
-            <div class="container my-1 bg-white">
-              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img9.jpg','Antique Dinner Set')">
-            Click For Details
-              </button>
-            </div>
-                
-          </div>
-          <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              
-            <img src="/silver_utensils/antique_dinner_set/img10.jpeg" class="img-fluid" alt="...">
-            <div class="container my-1 bg-white">
-              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img10.jpeg','Antique Dinner Set')">
-            Click For Details
-              </button>
-            </div>
-                
-          </div>
-          <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              
-            <img src="/silver_utensils/antique_dinner_set/img11.jpg" class="img-fluid" alt="...">
-            <div class="container my-1 bg-white">
-              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img11.jpg','Antique Dinner Set')">
-            Click For Details
-              </button>
-            </div>
-                
-
-          </div>
-          <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              
-            <img src="/silver_utensils/antique_dinner_set/img12.jpg" class="img-fluid" alt="...">
-            <div class="container my-1 bg-white">
-              <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/antique_dinner_set/img12.jpg','Antique Dinner Set')">
-            Click For Details
-              </button>
-            </div>
-                
-          </div>
-      </div><!--end of row 3-->
-
-      </div>  <!--closes the container within the card body-->
-      </div><!--closes card body of collapse-->
-      <div class="container my-1">
-        <button class="btn btn-outline-danger text-capitalize m-1 " type="button" data-bs-toggle="collapse" data-bs-target="#antiqueDinnerSetCollapse" aria-expanded="false" aria-controls="collapseExample">
-          close the gallery
-        </button>
-      </div>
-    </div><!--closes collapse container-->
-
-    <!--<div class="container bg-white d-none" id="mightInterestYou">
-      <span class="text-secondary">
-        Might Interest You :
-        <a href="#surahiSet" >Surahi Set, </a>
-        <a href="#fruitBowl" >Fruit Bowl</a>
-      </span>
-
-      </div>-->
-
-    <!--antique dinner set collapse ends here -->
-
-    <!--plain white dinner set collapse starts here -->
-
-    <div class="collapse bg-light my-1" id="plainWhiteDinnerSetCollapse">
-      <div class="conatiner text-capitalize text-center my-1"><h3>plain opni & high polish nakashi dinner set</h3></div>
-      <div class="card card-body">
-        <div class="container my-1">
-          <div class="row"><!--row 1-->
-              <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-                  
-                      <img src="/silver_utensils/plain_white_dinner_set/img1.jpg" class="img-fluid" alt="..."  loading="eager">
-                      <div class="container my-1 bg-white">
-                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img1.jpg','Plain Opni Dinner Set')">
-                      Click For Details
-                        </button>
-                      </div>
-                    
-              </div>
-              <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-                  
-                      <img src="/silver_utensils/plain_white_dinner_set/img2.jpg" class="img-fluid" alt="..."  loading="eager">
-                      <div class="card-body">
-                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img2.jpg','plain opni Dinner Set')">
-                      Click For Details
-                        </button>
-                      </div>
-                    
-  
-              </div>
-              <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-                  
-                      <img src="/silver_utensils/plain_white_dinner_set/img3.jpg" class="img-fluid" alt="..."  loading="eager">
-                      <div class="container my-1 bg-white">
-                        <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img3.jpg','High polish plain Dinner Set')">
-                      Click For Details
-                        </button>
-                      </div>
+                <div class="container">
                    
-  
-              </div>
-              <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-                  
-                      <img src="/silver_utensils/plain_white_dinner_set/img4.jpg" class="img-fluid" alt="..."  loading="eager">
-                      <div class="container my-1 bg-white">
-                       <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img4.jpg','plain opni Dinner Set')">
-                      Click For Details
-                        </button>
-                      </div>
-                   
-  
-              </div>
-          </div><!--end of row 1-->
-
-          <div class="row"><!--row 2-->
-            <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-                
-                    <img src="/silver_utensils/plain_white_dinner_set/img5.jpg" class="img-fluid" loading="eager" alt="...">
-                    <div class="container my-1 bg-white">
-                      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img5.jpg','high polish mickey mouse baby Dinner Set')">
-                    Click For Details
-                      </button>
-                    </div>
-                  
-            </div>
-            <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-                
-                    <img src="/silver_utensils/plain_white_dinner_set/img6.jpg" class="img-fluid" loading="eager" alt="...">
-                    <div class="container my-1 bg-white">
-                      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img6.jpg','high polish Mini mouse baby Dinner Set')">
-                    Click For Details
-                      </button>
-                    </div>
-                  
-
-            </div>
-            <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-                
-                    <img src="/silver_utensils/plain_white_dinner_set/img7.jpg" class="img-fluid" loading="eager" alt="...">
-                    <div class="container my-1 bg-white">
-                      <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img7.jpg','mickey mouse shape baby Dinner Set')">
-                    Click For Details
-                      </button>
-                    </div>
-                  
-
-            </div>
-            <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-                
-                    <img src="/silver_utensils/plain_white_dinner_set/img8.jpg" class="img-fluid" loading="eager" alt="...">
-                    <div class="container my-1 bg-white">
-                     <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img8.jpg','Antique mickey mouse baby Dinner Set')">
-                    Click For Details
-                      </button>
-                    </div>
-                  
-            </div>
-        </div><!--end of row 2-->
-
-        <div class="row"><!--row 3-->
-          <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-              
-                  <img src="/silver_utensils/plain_white_dinner_set/img9.jpg" class="img-fluid" alt="...">
-                  <div class="container my-1 bg-white">
-                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img9.jpg','lotus border Dinner Set')">
-                  Click For Details
-                    </button>
-                  </div>
-               
-          </div>
-          <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-              
-                  <img src="/silver_utensils/plain_white_dinner_set/img10.jpg" class="img-fluid" alt="...">
-                  <div class="container my-1 bg-white">
-                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img10.jpg','high polish nakashi Dinner Set')">
-                  Click For Details
-                    </button>
-                  </div>
-              
-
-          </div>
-          <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-              
-                  <img src="/silver_utensils/plain_white_dinner_set/img11.jpg" class="img-fluid" alt="...">
-                  <div class="container my-1 bg-white">
-                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img11.jpg','high polish engraving Dinner Set')">
-                  Click For Details
-                    </button>
-                  </div>
-              
-
-          </div>
-          <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-              
-                  <img src="/silver_utensils/plain_white_dinner_set/img12.jpg" class="img-fluid" alt="...">
-                  <div class="container my-1 bg-white">
-                   <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img12.jpg','high polish nakashi Dinner Set')">
-                  Click For Details
-                    </button>
-                  </div>
-                
-
-          </div>
-      </div><!--end of row 3-->
-
-      <div class="row"><!--row 4-->
-        <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-            
-                <img src="/silver_utensils/plain_white_dinner_set/img13.jpg" class="img-fluid" alt="...">
-                <div class="container my-1 bg-white">
-                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img13.jpg','high polish nakashi Dinner Set')">
-                Click For Details
-                  </button>
+                    <p class="text-capitalize text-secondary" style="font-size: small;">
+                        <span class=" lh-lg">Size :</span> dinner plate 10" - 12". (regular)<br>
+                        <span class=" lh-lg">components :</span> 1-dinner plate, 2-bowl, 1-salad plate(optional),1-glass, 1-spoon, 1-fork(optional).
+                        <a class="mx-2 shadow p-1 mb-5 bg-white rounded" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#cccc00" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                            </svg>
+                        </a>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body text-capitalize text-secondary" style="font-size: small;">
+                              Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            </div>
+                          </div>
+                        
+                    </p>
+                    <p class="text-capitalize text-secondary lh-lg" style="font-size: smaller;">
+                        category :
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="blue" class="bi bi-link" viewBox="0 0 16 16">
+                            <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+                            <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                          </svg>
+                        <br>antique silver utensils,<br> dinner set,<br> antique dinner set,<br> silver utensils
+                    </p>
                 </div>
-             
-        </div>
-        <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-            
-                <img src="/silver_utensils/plain_white_dinner_set/img14.jpg" class="img-fluid" alt="...">
-                <div class="container my-1 bg-white">
-                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img14.jpg','high polish square shape Dinner Set')">
-                Click For Details
-                  </button>
+                <div class="container">
+                    <p class="text-secondary text-capitalize shadow p-3 mb-5 bg-white rounded mobileViewIndex" style="font-size: small;">
+                        explore gallery of antique dinner set
+                    </p>
                 </div>
-             
-
-        </div>
-        <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-            
-                <img src="/silver_utensils/plain_white_dinner_set/img15.jpg" class="img-fluid" alt="...">
-                <div class="container my-1 bg-white">
-                  <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img15.jpg','high polish nakashi Dinner Set')">
-                Click For Details
-                  </button>
-                </div>
-             
-
-        </div>
-        <div class="col-md-6 col-sm-6 col-xl-3 col-lg-3 col-xs-6 my-1">
-            
-                <img src="/silver_utensils/plain_white_dinner_set/img16.jpg" class="img-fluid" alt="...">
-                <div class="container my-1 bg-white">
-                 <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img16.jpg','floral border high polish Dinner Set')">
-                Click For Details
-                  </button>
-                </div>
-              
-        </div>
-    </div><!--end of row 4-->
-
-    <div class="row"><!--row 5-->
-      <div class="col-md-6  col-xl-3 col-lg-3  my-1">
-          
-        <img src="/silver_utensils/plain_white_dinner_set/img17.jpg" class="img-fluid" alt="...">
-        <div class="container my-1 bg-white">
-          <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img17.jpg','plain engraving Dinner Set')">
-        Click For Details
-          </button>
-        </div>
-      
-      </div>
-      <div class="col-md-6  col-xl-3 col-lg-3 my-1">
-          
-        <img src="/silver_utensils/plain_white_dinner_set/img18.jpg" class="img-fluid" alt="...">
-        <div class="container my-1 bg-white">
-          <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img18.jpg','high polish nakashi Dinner Set')">
-        Click For Details
-          </button>
-        </div>
-
-      </div>
-      <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-          
-        <img src="/silver_utensils/plain_white_dinner_set/img19.jpg" class="img-fluid" alt="...">
-        <div class="container my-1 bg-white">
-          <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img19.jpg','dull polish engraving Dinner Set')">
-        Click For Details
-          </button>
-        </div>                
-
-      </div>
-      <div class="col-md-6 col-xl-3 col-lg-3  my-1">
-          
-        <img src="/silver_utensils/plain_white_dinner_set/img20.jpg" class="img-fluid" alt="...">
-        <div class="container my-1 bg-white">
-          <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img20.jpg','rajwadi bhojan thal')">
-        Click For Details
-          </button>
-        </div>
-      
-      </div>
-  </div><!--end of row 5-->
-
-      
-
-      </div>  <!--closes the container within the card body-->
-      </div><!--closes card body of collapse-->
-      <div class="container my-1">
-        <button class="btn btn-outline-danger text-capitalize m-1 " type="button" data-bs-toggle="collapse" data-bs-target="#plainWhiteDinnerSetCollapse" aria-expanded="false" aria-controls="collapseExample">
-          close the gallery
-        </button>
-      </div>
-    </div><!--closes collapse container-->
-
-
-    <!--plain white dinner set collapse ends here-->
-
-    <!--jug set control starts here-->
-
-    <div class="container my-1 bg-light">
-      <a id="jugSet"><h3 class="text-capitalize text-center">Jug Set</h3></a>
-    </div>
-    <div class="container my-1 bg-light">
-      <div class="row">
-        <div class="col-4">
-          <img src="/silver_utensils/jug_set_glass_set/img3.jpg" class="img-fluid mx-auto" alt="" loading="eager">
-        </div>
-        <div class="col-4">
-          <img src="/silver_utensils/jug_set_glass_set/img4.jpg" class="img-fluid mx-auto" alt="" loading="eager">
-        </div>
-        <div class="col-4">
-          <img src="/silver_utensils/jug_set_glass_set/img2.jpg" class="img-fluid mx-auto" alt="" loading="eager">
-        </div>
-      </div>
-    </div>
-    <div class="container my-1">
-    <button class="btn btn-outline-primary text-capitalize m-1" type="button" data-bs-toggle="collapse" data-bs-target="#jugSetCollapse" aria-expanded="false" aria-controls="collapseExample">
-        click to explore variety of jug sets
-    </button>
-    </div>
-    <!--jug set control ends here -->
-
-    <!--jug set collapse starts here -->
-    <div class="collapse container bg-light my-1" id="jugSetCollapse">
-      <div class="card card-body">
-        <div class="container my-1 bg-light">
-          <div class="row"><!--1st row -->
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img1.jpg" alt="" loading="eager" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/jug_set_glass_set/img1.jpg','antique jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img2.jpg" alt="" loading="eager" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img2.jpg','antique jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img3.jpg" alt="" loading="eager" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img3.jpg','antique jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img4.jpg" alt="" loading="eager" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img4.jpg','high polish floral engraving jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-          </div><!--1st row ends-->
-
-          <div class="row"><!--2nd row -->
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img5.jpg" alt="" loading="eager" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img5.jpg','high polish nakashi jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img6.jpg" alt="" loading="eager" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img6.jpg','antique jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img7.jpg" alt="" loading="eager" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img7.jpg','antique jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img8.jpg" alt="" loading="eager" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img8.jpg','high polish nakashi jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-          </div><!--2nd row ends-->
-
-          <div class="row"><!--3rd row -->
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img9.jpg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img9.jpg','high polish nakashi jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img10.jpg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img10.jpg','high polish nakashi jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img11.jpg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img11.jpg','antique jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img12.jpg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img12.jpg','high polish jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-          </div><!--3rd row ends-->
-
-          <div class="row"><!--4th row -->
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img13.png" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img13.png','antique jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img14.jpg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img14.jpg','antique jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img15.jpg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img15.jpg','antique jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img16.jpg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img16.jpg','antique jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-          </div><!--4th row ends-->
-
-          <div class="row"><!--5th row -->
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img17.jpg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img17.jpg','high polish jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img18.jpg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img18.jpg','high polish nakashi jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img19.jpeg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img19.jpeg','high polish nakashi jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-6 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img20.jpg" alt="" loading="lazy" class="img-fluid">
-              <div class="container my-1 bg-white">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas('/silver_utensils/plain_white_dinner_set/img20.jpg','high polish nakashi jug set')">
-                  Click For Details
-                </button>
-              </div>
-            </div>
-          </div><!--5th row ends-->
-          
-
-        </div><!--card body container-->
-        
-      </div><!--card body ends-->
-      <div class="container my-1">
-        <button class="btn btn-outline-danger text-capitalize m-1 " type="button" data-bs-toggle="collapse" data-bs-target="#jugSetCollapse" aria-expanded="false" aria-controls="collapseExample">
-          close the gallery
-        </button>
-      </div>
-    </div><!--collapse div ends -->
-
-    <!--jug set collapse ends here-->
-
-    <!--glass set control starts here-->
-    <div class="container bg-light my-1 p-2">
-      <a id="glassSet"><h3 class="text-center text-capitalize">Glass Set : Antique & Plain</h3></a>
-  </div>
-    <div class="container my-1 bg-light">
-      <div class="row">
-        <div class="col-4">
-          <img src="/silver_utensils/jug_set_glass_set/img23.jpg" class="img-fluid mx-auto" alt="..." loading="eager">
-        </div>
-        <div class="col-4">
-          <img src="/silver_utensils/jug_set_glass_set/img24.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-        </div>
-        <div class="col-4">
-          <img src="/silver_utensils/jug_set_glass_set/img29.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-        </div>
-      </div>
-    </div>
-      <div class="container my-1">
-      <div class="row my-2 bg-light">
-        <div class="col">
-          <button class="btn btn-outline-primary text-capitalize m-1" type="button" data-bs-toggle="collapse" data-bs-target="#glassSetCollapse" aria-expanded="false" aria-controls="collapseExample">
-            click to explore Glass sets
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!--glass set control ends here-->
-    <!--glass set image collapse begings here -->
-
-    <div class="collapse container my-1 bg-light" id="glassSetCollapse">
-      <div class="card card-body">
-        <div class="container my-1 bg-light"><!--container inside the card body-->
-          <div class="row"><!--row 1-->
-            <div class="col-md-6 col-lg-3 col-xl-3 offset-lg-3 offset-xl-3 my-1"><!--column 1-->
-              <img src="/silver_utensils/jug_set_glass_set/img21.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div><!--column 1-->
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1"><!--column 2-->
-              <img src="/silver_utensils/jug_set_glass_set/img22.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div><!--column 2-->
-          </div><!--row 1 end-->
-          <div class="row"><!--row 2-->
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img23.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img24.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img25.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img31.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div>
-          </div><!--row 2 ends-->
-          <div class="row"><!--row 3-->
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img27.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img32.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img29.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img30.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div>
-          </div><!-- row 3 ends-->
-          <div class="row"><!--row 4 -->
-            <div class="col-md-6 col-xl-3 col-lg-3 offset-lg-3 offset-xl-3 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img26.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <img src="/silver_utensils/jug_set_glass_set/img28.jpg" class="img-fluid mx-auto" alt="..."  loading="eager">
-            </div>
-          </div><!--row 4 ends-->
-        </div><!--container div inside the card body-->
-      </div><!--card body div-->
-      <div class="conainer bg-light my-1"><!--collapse close button-->
-        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#glassSetCollapse" aria-expanded="false" aria-controls="collapseExample">
-          Close The Gallery
-        </button>
-      </div>
-    </div><!--collapse div-->
-    
-
-    <!--glass set image collapse ends here -->
-
-    <!--fruit bowl section begings here -->
-
-    <!--fruit bowl image containers strts here -->
-
-    <div class="container bg-light my-1 p-2">
-      <a id="fruitBowl"> <h3 class="text-center">Exotic Collections Of Fruit Bowl</h3></a>
-    </div>
-
-    <div class="container my-1">
-      <div class="row">
-        <div class="col-4">              
-          <img src="/silver_utensils/fruit_bowl/cover-image1.jpg" class="img-fluid mx-auto" loading="eager" alt="...">                      
-        </div>
-        <div class="col-4">     
-          <img src="/silver_utensils/fruit_bowl/cover-image2.jpg" class="img-fluid mx-auto" loading="eager" alt="...">                    
-        </div>
-        <div class="col-4">              
-          <img src="/silver_utensils/fruit_bowl/cover-image3.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-
-    <div class="container my-1 bg-light">
-      <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#fruitBowlCollapse" aria-expanded="false" aria-controls="collapseExample">
-        Click To Explore Fruit Bowl Collection 
-      </button>
-    </div>
-    <!--fruit bowl control section ends here -->
-    <!--fruit bowl collapse image section begins here-->
-    <div class="container collapse my-1" id="fruitBowlCollapse">
-      <div class="card card-body">
-        <div class="container my-1 bg-light">
-          <div class="row"><!--row 1-->
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <img src="/silver_utensils/fruit_bowl/img1.jpg" class="img-fluid mx-auto" alt="...">
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <img src="/silver_utensils/fruit_bowl/img2.jpg" class="img-fluid mx-auto" alt="...">
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <img src="/silver_utensils/fruit_bowl/img3.jpg" class="img-fluid mx-auto" alt="...">
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <img src="/silver_utensils/fruit_bowl/img4.jpg" class="img-fluid mx-auto" alt="...">
-            </div>
-          </div><!--row 1 ends -->
-          <div class="row"><!--row 2 -->
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <img src="/silver_utensils/fruit_bowl/img5.jpg" class="img-fluid mx-auto" alt="...">
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <img src="/silver_utensils/fruit_bowl/img6.jpeg" class="img-fluid mx-auto" alt="...">
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <img src="/silver_utensils/fruit_bowl/img7.jpg" class="img-fluid mx-auto" alt="...">
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <img src="/silver_utensils/fruit_bowl/img8.jpeg" class="img-fluid mx-auto" alt="...">
-            </div>
-          </div><!--row 2 ends-->
-          <div class="row"><!--row 3 -->
-            <div class="col-md-6 col-lg-4 col-xl-4 my-1">
-              <img src="/silver_utensils/fruit_bowl/img9.jpg" class="img-fluid mx-auto" alt="...">
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-4 my-1">
-              <img src="/silver_utensils/fruit_bowl/img10.jpg" class="img-fluid mx-auto" alt="...">
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-4 my-1">
-              <img src="/silver_utensils/fruit_bowl/img11.jpg" class="img-fluid mx-auto" alt="...">
-            </div>
-          </div><!--row 3 ends -->
-        </div><!--card body container-->
-      </div><!--card body div-->
-      <div class="container my-1">
-        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#fruitBowlCollapse" aria-expanded="false" aria-controls="collapseExample">
-          Close The Gallery
-        </button>
-      </div>
-    </div><!--fruitbowl collapse-->
-      
-          
-    
+            </div>     
+        </div>-->
+    </div><!--end of row -->
+</div><!--end of container-->
 
 
 
-
-    <!--fruit bowl image container ends here -->
-
-
-    <!--fruit bowl secton ends here -->
-
-    <!--SURAHI SET section begins here -->
-
-    <div class="container my-2">
-      <div class="row">
-        <div class="col-md-12 col-sm-12 bg-light">
-          <a id="surahiSet"><h3 class="text-center">Surahi Set</h3></a>
-        </div>
-      </div>
-    </div>
-
-    <div class="container my-1 bg-light">
-      <div class="row">
-        <div class="col-md-4 col-sm-12 mx-auto">
-          <img src="/silver_utensils/surahi_set/cover-image.jpg" loading="eager" class="img-fluid" alt="">
-        </div>
-        <div class="col-md-8 col-sm-12 mx-auto">
-          <div class="container">
-            <div class="row"><!--row 1-->
-              <div class="col-md-3 col-sm-12 mx-auto my-1">
-                <button type="button" onclick="offCanvas(event)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  <img src="/silver_utensils/surahi_set/img1.jpg" class="img-fluid" loading="eager" alt="">
-                </button>                         
-              </div>
-              <div class="col-md-3 col-sm-12 mx-auto my-1">
-                <button type="button" onclick="offCanvas(event)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="/silver_utensils/surahi_set/img2.png" class="img-fluid" loading="eager" alt="">
-                </button>
-              </div>
-              <div class="col-md-3 col-sm-12 mx-auto my-1">
-                <button type="button" onclick="offCanvas(event)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="/silver_utensils/surahi_set/img3.jpg" class="img-fluid" loading="eager" alt="">
-                </button>
-              </div>
-              <div class="col-md-3 col-sm-12 mx-auto my-1">
-                <button type="button" onclick="offCanvas(event)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="/silver_utensils/surahi_set/img4.jpg" class="img-fluid" loading="eager" alt="">
-                </button>
-              </div>
-            </div><!--row 1 ends-->
-            <div class="row"><!--row 2 -->
-              <div class="col-md-3 col-sm-12 mx-auto my-1">
-                <button type="button" onclick="offCanvas(event)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="/silver_utensils/surahi_set/img5.jpg" class="img-fluid" loading="eager" alt="">
-                </button>
-              </div>
-              <div class="col-md-3 col-sm-12 mx-auto my-1">
-                <button type="button" onclick="offCanvas(event)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="/silver_utensils/surahi_set/img6.jpg" class="img-fluid" loading="eager" alt="">
-                </button>
-              </div>
-              <div class="col-md-3 col-sm-12 mx-auto my-1">
-                <button type="button" onclick="offCanvas(event)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="/silver_utensils/surahi_set/img7.jpg" class="img-fluid" loading="eager" alt="">
-                </button>
-              </div>
-              <div class="col-md-3 col-sm-12 mx-auto my-1">
-                <button type="button" onclick="offCanvas(event)" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="/silver_utensils/surahi_set/img8.png" class="img-fluid" loading="eager" alt="">
-                </button>
-              </div>
-            </div><!--row 2 ends -->
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--SURAHI SET section end here -->
-
-    <!--cutlery set section begings here -->
-    <div class="container my-2 bg-light"><!--cutlery set control-->
-      <a id="cutlerySet"><h3 class="text-center">Cutlery Set</h3></a>
-    </div> 
-    <div class="container my-1 mx-auto bg-light">
-      <div class="row">
-        <div class="col-md-12 offset-md-1 col-sm-12">
-          <img src="/silver_utensils/silver_cutlery/img1.jpg" class="img-fluid mx-auto" loading="eager" alt="...">
-        </div>
-      </div>         
-    </div>
-    <div class="conatiner my-1 bg-light ">
-      <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#cutlerySetCollapse" aria-expanded="false" aria-controls="collapseExample">
-        Explore Silver Cutlery Set
-      </button>
-    </div>   <!--cutlery set control ends here-->
-
-    <div class="collapse container my-1 bg-light" id="cutlerySetCollapse">
-      <div class="card card-body">
-        <div class="conatiner my-1">
-          <div class="row"><!--row 1-->
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/silver_cutlery/img7.jpg" class="img-fluid mx-auto" loading="eager" alt="high polish silver cutlery set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/silver_cutlery/img2.jpg" class="img-fluid mx-auto" loading="eager" alt="nakashi silver cutlery set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/silver_cutlery/img3.jpg" class="img-fluid mx-auto" loading="eager" alt="nakashi silver cutlery set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/silver_cutlery/img8.jpg" class="img-fluid mx-auto" loading="eager" alt="high polish silver cutlery set"> 
-              </button>
-            </div>
-          </div><!--row 1 ends-->
-          <div class="row"><!--row 1-->
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/silver_cutlery/img4.jpg" class="img-fluid mx-auto" loading="eager" alt="nakashi silver cutlery set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/silver_cutlery/img5.jpg" class="img-fluid mx-auto" loading="eager" alt="nakashi silver cutlery set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/silver_cutlery/img6.jpg" class="img-fluid mx-auto" loading="eager" alt="nakashi silver cutlery set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-lg-3 col-xl-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/silver_cutlery/img9.jpg" class="img-fluid mx-auto" loading="eager" alt="nakashi silver cutlery set"> 
-              </button>
-            </div>
-          </div><!-- row 2 ends -->
-        </div><!--card body container div-->
-        
-      </div><!--card body div-->
-      <button class="btn btn-outline-danger my-1" type="button" data-bs-toggle="collapse" data-bs-target="#cutlerySetCollapse" aria-expanded="false" aria-controls="collapseExample">
-        Close The Gallery
-      </button>
-    </div><!--collapse div-->
-
-    <!--ice cream set -->
-    <div class="container my-2 bg-light">
-      <a id="iceCreamSet"><h3 class="text-center">Ice-Cream Set</h3></a>
-    </div>
-    <div class="container bg-light my-1">
-      <div class="row">
-        <div class="col-4">
-          <img src="/silver_utensils/ice_cream_set/img1.jpg" loading="eager" alt="" class="img-fluid mx-auto">
-        </div>
-        <div class="col-4">
-          <img src="/silver_utensils/ice_cream_set/img2.jpg" loading="eager" alt="" class="img-fluid mx-auto">
-        </div>
-        <div class="col-4">
-          <img src="/silver_utensils/ice_cream_set/img3.jpg" loading="eager" alt="" class="img-fluid mx-auto">
-        </div>
-      </div>
-    </div>
-    <div class="container my-1 bg-light">
-      <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#iceCreamCollapse" aria-expanded="false" aria-controls="collapseExample">
-        Click To Explore Ice Cream Set
-      </button>
-    </div>  <!--ice cream set control ends here-->
-
-    <!--ice cream collapse-->
-    <div class="collapse container my-1" id="iceCreamCollapse">
-      <div class="card card-body">
-        <div class="container my-1 bg-light">
-          <div class="row">
-            <div class="col-md-6 col-xl-3 col-lg-3">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/ice_cream_set/img4.jpg" class="img-fluid mx-auto" loading="eager" alt="ice cream set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/ice_cream_set/img5.jpg" class="img-fluid mx-auto" loading="eager" alt="ice cream set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/ice_cream_set/img6.jpg" class="img-fluid mx-auto" loading="eager" alt="ice cream set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/ice_cream_set/img7.jpg" class="img-fluid mx-auto" loading="eager" alt="ice cream set"> 
-              </button>
-            </div>
-          </div><!--row 1 ends-->
-          <div class="row">
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/ice_cream_set/img1.jpg" class="img-fluid mx-auto" loading="eager" alt="ice cream set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/ice_cream_set/img2.jpg" class="img-fluid mx-auto" loading="eager" alt="ice cream set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/ice_cream_set/img3.jpg" class="img-fluid mx-auto" loading="eager" alt="ice cream set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/ice_cream_set/img9.jpeg" class="img-fluid mx-auto" loading="eager" alt="ice cream set"> 
-              </button>
-            </div>
-          </div><!--row 2 ends-->
-          <div class="row">
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1 offset-lg-3 offset-xl-3">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/ice_cream_set/img8.jpg" class="img-fluid mx-auto" loading="eager" alt="ice cream set"> 
-              </button>
-            </div>
-            <div class="col-md-6 col-xl-3 col-lg-3 my-1">
-              <button data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="offCanvas(event)">
-                <img src="/silver_utensils/ice_cream_set/img10.jpg" class="img-fluid mx-auto" loading="eager" alt="ice cream set"> 
-              </button>
-            </div>
-          </div><!--row 3 ends-->
-          
-        </div>
-       
-      </div><!--card body div-->
-      <div class="container my-1 bg-light">
-        <button class="btn btn-outline-danger" type="button" data-bs-toggle="collapse" data-bs-target="#iceCreamCollapse" aria-expanded="false" aria-controls="collapseExample">
-          Close The Gallery
-        </button>
-      </div>
-    </div><!--collapse container div-->
-    <!-- ice cfream set collapse ends here-->
-
-    <!--tea set -->
-    <div class="container my-2 bg-light p-2">
-      <a id="iceCreamSet"><h3 class="text-center">Tea Set</h3></a>
-    </div>
-    <div class="container my-1 bg-light">
-      <p class="text-capitalize text-center lh-lg p-2">
-        Morning coffee and afternoon tea are some of our favorite daily rituals.
-         Bring some vintage and royal style to the table with antique, high polish plain & embroided tea and coffee sets, cups and pots.
-      </p>
-    </div>
-    <div class="container bg-light my-1">
-      <div class="row">
-        <div class="col-4">
-          <img src="/silver_utensils/ice_cream_set/img1.jpg" loading="eager" alt="" class="img-fluid mx-auto">
-        </div>
-        <div class="col-4">
-          <img src="/silver_utensils/ice_cream_set/img2.jpg" loading="eager" alt="" class="img-fluid mx-auto">
-        </div>
-        <div class="col-4">
-          <img src="/silver_utensils/ice_cream_set/img3.jpg" loading="eager" alt="" class="img-fluid mx-auto">
-        </div>
-      </div>
-    </div>
-    <!--tea set ends -->
-
-
-
-
-
-    <!--optional js dependencies-->
+<!--optional js dependencies-->
 
      <!--jquery-->
      <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous" defer></script>

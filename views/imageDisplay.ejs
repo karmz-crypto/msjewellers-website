@@ -1,0 +1,136 @@
+
+<div class="container my-2">
+    <h6 class="text-secondary text-center text-capitalize p-2 m-1">
+        <%=specificImageDisplay.imageTitle; %>
+    </h6><hr>
+</div>
+
+<div class="container">
+    <div class="row">
+        
+        <div class="col-xl-3 col-lg-3 col-md-4  shadow p-3 mb-5 bg-white rounded wideViewIndex" style="font-size: small;">
+            <p class="text-secondary text-capitalize text-center">category
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="blue" class="bi bi-link" viewBox="0 0 16 16">
+                    <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+                    <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                  </svg><br>
+            </p><hr>
+            <%for(var i=0;i<specificImageDisplay.category.length;i++){%>
+            <a href="<%=specificImageDisplay._url[i]%>">
+            <p class="text-capitalize text-center">
+                <%=specificImageDisplay.category[i];%>
+            </p>
+            </a>
+            <%}%>
+        </div>
+        <div class="col-xl-5 col-lg-5 col-md-8 col-sm-12 col-xs-12">
+            <picture>
+                <source media="(max-width:799px)" srcset="<%=specificImageDisplay.srcSetMobile; %>" >
+                <source media="(min-width:800px)" srcset=<%=specificImageDisplay.srcSetWeb;%> >
+                <img class="img-fluid" alt="Antique Dinner Set" data-url="silverUtensils" data-category="<%=specificImageDisplay.imageTitle;%>" src="<%=specificImageDisplay.srcSetMobile; %>">
+            </picture> 
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 text-secondary" style="font-size: small;">
+            Description :<br>
+            <p><%= specificImageDisplay.imageDesc.desc; %></p>
+            <p>
+                <%= specificImageDisplay.imageDesc.dimension;%><br>
+                <%= specificImageDisplay.imageDesc.additionalImageInfo; %>
+            </p>
+            <p>components : <br>
+                <%= specificImageDisplay.imageDesc.components; %>
+            </p>
+            <p>
+                <%= specificImageDisplay.imageDesc.detailDimensionDesc; %><br>
+                <%= specificImageDisplay.imageDesc.detailComponentsDesc; %><br>
+                <%= specificImageDisplay.imageDesc.detailWeightDesc; %>
+            </p>
+        </div>
+        <div class="col-12 mobileViewIndex" style="font-size: small;">
+            <p class="text-secondary text-capitalize text-center">category
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="blue" class="bi bi-link" viewBox="0 0 16 16">
+                    <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+                    <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                  </svg><br>
+            </p>
+
+            <hr>
+            <%for(var i=0;i<specificImageDisplay.category.length;i++){%>
+            <a href="<%= specificImageDisplay._url[i];%>" >
+            <p class="text-capitalize text-center">
+                <%=specificImageDisplay.category[i];%>
+            </p>
+            </a>
+            <%}%>
+        </div>
+    </div>
+</div>
+ 
+
+ <!--similar image type display -->
+ <div class="container my-3 p-2 ">
+     <h5 class="text-capitalize text-secondary p-2 m-2 bg-light">
+         <span class="mx-3 p-2">similar image gallery</span>
+         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-image" viewBox="0 0 16 16">
+            <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+            <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54A.505.505 0 0 1 1 12.5v-9a.5.5 0 0 1 .5-.5h13z"/>
+          </svg> 
+     </h5>
+ </div> 
+
+ <div class="container my-1">
+    <div class="container scrollWebKit  shadow p-3 mb-5 bg-white rounded " style="overflow: auto; white-space: nowrap;">
+        <% similarImageDisplay.forEach(obj=>{%>
+        <a href="/image/<%=obj.imageId%>">
+            <picture>
+                <source media="(max-width:799px)" srcset="<%=obj.srcSetMobile; %>" >
+                <source media="(min-width:800px)" srcset=<%=obj.srcSetWeb;%> >
+                <img class="img-fluid mx-2 p-2 border-end border-bottom" alt="Antique Dinner Set" data-url="silverUtensils" data-category="<%=obj.imageTitle;%>" src="<%=obj.srcSetMobile; %>" style="height: 150px;width: 150px;">
+            </picture> 
+        </a>
+    <%});%> 
+    </div>
+</div>  <!--closing of similar image gallery section -->
+
+
+<div class="container my-3 p-2 ">
+    <h5 class="text-capitalize text-secondary p-2 m-2 bg-light">
+        <span class="mx-3 p-2">related image gallery</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-image" viewBox="0 0 16 16">
+           <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+           <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54A.505.505 0 0 1 1 12.5v-9a.5.5 0 0 1 .5-.5h13z"/>
+         </svg> 
+    </h5>
+</div> 
+
+<div class="container my-1">
+   <div class="container scrollWebKit  shadow p-3 mb-5 bg-white rounded " style="overflow: auto; white-space: nowrap;">
+       <% relatedImageDisplay.forEach(obj=>{%>
+       <a href="/image/<%=obj.imageId%>">
+           <picture>
+               <source media="(max-width:799px)" srcset="<%=obj.srcSetMobile; %>" >
+               <source media="(min-width:800px)" srcset=<%=obj.srcSetWeb;%> >
+               <img class="img-fluid mx-2 p-2 border-end border-bottom" alt="Antique Dinner Set" data-url="silverUtensils" data-category="<%=obj.imageTitle;%>" src="<%=obj.srcSetMobile; %>" style="height: 150px;width: 150px;">
+           </picture> 
+       </a>
+   <%});%> 
+   </div>
+</div>  <!--closing of similar image gallery section -->
+
+<!--optional js dependencies-->
+
+     <!--jquery-->
+     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous" defer></script>
+     <!-- Optional JavaScript; choose one of the two! -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+     <!-- Option 1: Bootstrap Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+ 
+     <!-- Option 2: Separate Popper and Bootstrap JS -->
+     <!--
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+     -->
+
+
+ 
