@@ -3,7 +3,9 @@ $(document).ready(()=>{
     console.log('js is connected fetch' );
 });
     
-async function getImage (event){   
+async function getImage (event){  
+   
+    
     fetch('./imageObjectModel')
      .then(
          function(response){
@@ -20,7 +22,7 @@ async function getImage (event){
                 if(fetchData===obj._fetchTag){ //filtering data 
                     var imageElement = document.createElement('img');
                     imageElement.setAttribute('src',obj.imageSrc);
-                    imageElement.classList.add("img-fluid","mx-auto");
+                    imageElement.classList.add("img-fluid","mx-2", "p-2", "border-end", "border-bottom","isImageElementPresent");
                     imageElement.style.width="200px";
                     imageElement.style.height="200px";
                     var linkElement = document.createElement('a'); //create 'a' element
@@ -31,11 +33,11 @@ async function getImage (event){
                     divContainer.classList.add("container","mx-1","my-1","p-1","d-inline");
                     divContainer.appendChild(linkElement); 
                     var imageContainer = document.getElementsByClassName(obj._fetchTag);//getElementsByClassName returns array
-                    console.log(imageContainer);
+                    //console.log(imageContainer);
                     imageContainer[0].appendChild(divContainer);// since the imagecontainer contains only one element we know it
                     // therefore imageContainer[0] is used to access the only element present in it.
                     var fetchElement = document.getElementById(obj._fetchTag);
-                    console.log(fetchElement);
+                    //console.log(fetchElement);
                     fetchElement.classList.remove('d-none');    
                 } //closing of if 
                 else{return;}            
@@ -47,6 +49,8 @@ async function getImage (event){
          .catch(function(err){ 
              console.log(`fetch error ${err}`);
          });   
+
+        event.target.classList.add("disabled");
  }//closing of function getImage()
 
  

@@ -36,7 +36,7 @@
             "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
             "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
             "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
-            "desc":"silver dinner set with an antique polish(black) embroided with designs.",
+            "desc":"silver dinner set with an antique polish(black),with extended border embroided with designs along. similar designs are present in the complete set",
             "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
             "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
             "additionalImageInfo":"weight : 1250grms-(regular size-12\" dinner plate).",
@@ -104,6 +104,648 @@
                     ]
     },
 
+    {
+        "imageId":"su-pds-img-1",  
+        "imageTitle":"plain dinner set",
+        "imageSrc":"/silver_utensilsMobile/plain_dinner_set/img1.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/plain_dinner_set/img1.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/plain_dinner_set/img1.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"plain dinner set",
+        "secondaryCategory":"antique dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["plain dinner set",
+                        "dinner set",
+                    "dinner set as gift item","silver utensils"],
+        
+        "_fetchTag":"plain_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"true",
+            "coverPage":["silver utensils page"]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver plain dinner set with opni polish with circular designs of mirror finish alternating dull finish. The design of the plate is curved from bottom and bidding all along the edges",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1000grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+
+    
+    {
+        "imageId":"su-pds-img-2",  
+        "imageTitle":"plain dinner set",
+        "imageSrc":"/silver_utensilsMobile/plain_dinner_set/img2.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/plain_dinner_set/img2.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/plain_dinner_set/img2.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"plain dinner set",
+        "secondaryCategory":"antique dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["plain dinner set",
+                        "dinner set",
+                    "dinner set as gift item","silver utensils"],
+        
+        "_fetchTag":"plain_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver plain dinner set with opni polish with circular designs of mirror finish alternating dull finish. The design of the plate is curved from bottom and an indented from below the circular top edges with bidding all along",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1000grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pds-img-3",  
+        "imageTitle":"plain dinner set",
+        "imageSrc":"/silver_utensilsMobile/plain_dinner_set/img3.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/plain_dinner_set/img3.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/plain_dinner_set/img3.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"plain dinner set",
+        "secondaryCategory":"antique dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["plain dinner set",
+                        "dinner set",
+                    "dinner set as gift item","silver utensils"],
+        
+        "_fetchTag":"plain_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver plain dinner set with opni polish with circular designs of mirror finish alternating dull finish. The design of the plate is curved from bottom and an straight up from base to top border with bidding all along",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1000grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pds-img-4",  
+        "imageTitle":"plain dinner set",
+        "imageSrc":"/silver_utensilsMobile/plain_dinner_set/img4.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/plain_dinner_set/img4.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/plain_dinner_set/img4.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"plain dinner set",
+        "secondaryCategory":"antique dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["plain dinner set",
+                        "dinner set",
+                    "dinner set as gift item","silver utensils"],
+        
+        "_fetchTag":"plain_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver plain dinner set with high polish with circular designs of mirror finish with engraving designs. The design of the plate is curved from bottom with bidding all along",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1000grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-cs-img-1",  
+        "imageTitle":"cutlery set",
+        "imageSrc":"/silver_utensilsMobile/cutlery_set/img1.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/cutlery_set/img1.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/cutlery_set/img1.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "cutlery set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/cutlerySet"
+                        ],
+        "primaryCategory":"cutlery set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils"],
+        "dynamicPageView":["cutlery set"],
+        "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
+            "knife"],
+        
+        "_fetchTag":"cutlery_set",
+        "_cover_image":{
+            "isCoverImage":"true",
+            "coverPage":["silver utensils page"]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. knife can be added or removed or any specific item depending on ones need.",
+            "detailWeightDesc":"the weight of the set will vary according to the number of spoon & fork/knife set, a single item weight vary from 10 grms to 60 grms (regular size)",
+            "desc":"Explore the wide variety of cutlery set from plain finish, and minimal embroidery along the borders and base to complete embroidery cutlery designs.  ",
+            "dimension":"size : spoon/fork 3\" - 6\",(regular). knife 6\", serving spoons 8\"-10\", rice spoons 8\"(regular)",
+            "components":"spoon, fork, rice serving spoon, serving spoon for curry, daal spoon, knife.",
+            "additionalImageInfo":"weight : individual item weight depend on the size of the item ",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-cs-img-2",  
+        "imageTitle":"cutlery set",
+        "imageSrc":"/silver_utensilsMobile/cutlery_set/img2.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/cutlery_set/img2.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/cutlery_set/img2.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "cutlery set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/cutlerySet"
+                        ],
+        "primaryCategory":"cutlery set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils"],
+        "dynamicPageView":["cutlery set"],
+        "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
+            "knife"],
+        
+        "_fetchTag":"cutlery_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. knife can be added or removed or any specific item depending on ones need.",
+            "detailWeightDesc":"the weight of the set will vary according to the number of spoon & fork/knife set, a single item weight vary from 10 grms to 60 grms (regular size)",
+            "desc":" dhalwa (casting) cutlery set with minimal embroidery along the base and high polish finish",
+            "dimension":"size : spoon/fork 3\" - 6\",(regular). knife 6\"",
+            "components":"spoon, fork, knife.",
+            "additionalImageInfo":"weight : individual item weight depend on the size of the item starting 3\"-25grm/6\"-60grm  ",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-cs-img-3",  
+        "imageTitle":"cutlery set",
+        "imageSrc":"/silver_utensilsMobile/cutlery_set/img3.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/cutlery_set/img3.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/cutlery_set/img3.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "cutlery set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/cutlerySet"
+                        ],
+        "primaryCategory":"cutlery set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils"],
+        "dynamicPageView":["cutlery set"],
+        "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
+            "knife"],
+        
+        "_fetchTag":"cutlery_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. knife can be added or removed or any specific item depending on ones need.",
+            "detailWeightDesc":"the weight of the set will vary according to the number of spoon & fork/knife set, a single item weight vary from 10 grms to 60 grms (regular size)",
+            "desc":" dhalwa (casting) cutlery set (barar) with minimal embroidery along the borders and high polish finish",
+            "dimension":"size : spoon/fork 3\" - 6\",(regular). knife 6\"",
+            "components":"spoon, fork, knife.",
+            "additionalImageInfo":"weight : individual item weight depend on the size of the item starting 3\"-25grm/6\"-60grm  ",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-cs-img-4",  
+        "imageTitle":"cutlery set",
+        "imageSrc":"/silver_utensilsMobile/cutlery_set/img4.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/cutlery_set/img4.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/cutlery_set/img4.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "cutlery set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/cutlerySet"
+                        ],
+        "primaryCategory":"cutlery set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils"],
+        "dynamicPageView":["cutlery set"],
+        "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
+            "knife"],
+        
+        "_fetchTag":"cutlery_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. knife can be added or removed or any specific item depending on ones need.",
+            "detailWeightDesc":"the weight of the set will vary according to the number of spoon & fork/knife set, a single item weight vary from 10 grms to 60 grms (regular size)",
+            "desc":" dhalwa (casting) cutlery set with plain design high polish finish",
+            "dimension":"size : spoon/fork 3\" - 6\",(regular). knife 6\"",
+            "components":"spoon, fork, knife.",
+            "additionalImageInfo":"weight : individual item weight depend on the size of the item starting 3\"-25grm/6\"-60grm  ",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    
+    {
+        "imageId":"su-cs-img-5",  
+        "imageTitle":"cutlery set",
+        "imageSrc":"/silver_utensilsMobile/cutlery_set/img5.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/cutlery_set/img5.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/cutlery_set/img5.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "cutlery set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/cutlerySet"
+                        ],
+        "primaryCategory":"cutlery set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils"],
+        "dynamicPageView":["cutlery set"],
+        "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
+            "knife"],
+        
+        "_fetchTag":"cutlery_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. knife can be added or removed or any specific item depending on ones need.",
+            "detailWeightDesc":"the weight of the set will vary according to the number of spoon & fork/knife set, a single item weight vary from 10 grms to 60 grms (regular size)",
+            "desc":" dhalwa (casting) cutlery set with minimal border and base embroidery design in high polish finish",
+            "dimension":"size : spoon/fork 3\" - 6\",(regular). knife 6\"",
+            "components":"spoon, fork, knife.",
+            "additionalImageInfo":"weight : individual item weight depend on the size of the item starting 3\"-25grm/6\"-60grm  ",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-cs-img-6",  
+        "imageTitle":"cutlery set",
+        "imageSrc":"/silver_utensilsMobile/cutlery_set/img6.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/cutlery_set/img6.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/cutlery_set/img6.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "cutlery set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/cutlerySet"
+                        ],
+        "primaryCategory":"cutlery set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils"],
+        "dynamicPageView":["cutlery set"],
+        "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
+            "knife"],
+        
+        "_fetchTag":"cutlery_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. knife can be added or removed or any specific item depending on ones need.",
+            "detailWeightDesc":"the weight of the set will vary according to the number of spoon & fork/knife set, a single item weight vary from 10 grms to 60 grms (regular size)",
+            "desc":" dhalwa (casting) cutlery set with linear embroidery design along the whole length in high polish finish",
+            "dimension":"size : spoon/fork 3\" - 6\",(regular). knife 6\"",
+            "components":"spoon, fork, knife.",
+            "additionalImageInfo":"weight : individual item weight depend on the size of the item starting 3\"-25grm/6\"-60grm  ",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-cs-img-7",  
+        "imageTitle":"cutlery set",
+        "imageSrc":"/silver_utensilsMobile/cutlery_set/img7.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/cutlery_set/img7.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/cutlery_set/img7.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "cutlery set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/cutlerySet"
+                        ],
+        "primaryCategory":"cutlery set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils"],
+        "dynamicPageView":["cutlery set"],
+        "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
+            "knife"],
+        
+        "_fetchTag":"cutlery_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. knife can be added or removed or any specific item depending on ones need.",
+            "detailWeightDesc":"the weight of the set will vary according to the number of spoon & fork/knife set, a single item weight vary from 10 grms to 60 grms (regular size)",
+            "desc":" dhalwa (casting) cutlery set with minimal embroidery design along the base in high polish finish",
+            "dimension":"size : spoon/fork 3\" - 6\",(regular). knife 6\"",
+            "components":"spoon, fork, knife.",
+            "additionalImageInfo":"weight : individual item weight depend on the size of the item starting 3\"-25grm/6\"-60grm  ",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-cs-img-8",  
+        "imageTitle":"cutlery set",
+        "imageSrc":"/silver_utensilsMobile/cutlery_set/img8.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/cutlery_set/img8.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/cutlery_set/img8.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "cutlery set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/cutlerySet"
+                        ],
+        "primaryCategory":"cutlery set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils"],
+        "dynamicPageView":["cutlery set"],
+        "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
+            "knife"],
+        
+        "_fetchTag":"cutlery_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. knife can be added or removed or any specific item depending on ones need.",
+            "detailWeightDesc":"the weight of the set will vary according to the number of spoon & fork/knife set, a single item weight vary from 10 grms to 60 grms (regular size)",
+            "desc":" dhalwa (casting) cutlery set with bidding border embroidery design along the whole border length in high polish finish",
+            "dimension":"size : spoon/fork 3\" - 6\",(regular). knife 6\"",
+            "components":"spoon, fork, knife.",
+            "additionalImageInfo":"weight : individual item weight depend on the size of the item starting 3\"-25grm/6\"-60grm  ",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-cs-img-9",  
+        "imageTitle":"cutlery set",
+        "imageSrc":"/silver_utensilsMobile/cutlery_set/img9.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/cutlery_set/img9.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/cutlery_set/img9.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "cutlery set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/cutlerySet"
+                        ],
+        "primaryCategory":"cutlery set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils"],
+        "dynamicPageView":["cutlery set"],
+        "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
+            "knife"],
+        
+        "_fetchTag":"cutlery_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. knife can be added or removed or any specific item depending on ones need.",
+            "detailWeightDesc":"the weight of the set will vary according to the number of spoon & fork/knife set, a single item weight vary from 10 grms to 60 grms (regular size)",
+            "desc":" dhalwa (casting) cutlery set with full embroidery design along the whole length of the spoon/fork in high polish finish",
+            "dimension":"size : spoon/fork 3\" - 6\",(regular). knife 6\"",
+            "components":"spoon, fork, knife.",
+            "additionalImageInfo":"weight : individual item weight depend on the size of the item starting 3\"-25grm/6\"-60grm  ",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+
+
+
+
+
+
+
+
 
     {
         "imageId":"su-ss-img-1",  
@@ -141,6 +783,9 @@
             "coverPage":["silver utensils page"]
             },
         "imageDesc":{
+            "detailComponentsDesc":"",
+            "detailDimensionDesc":"",
+            "detailWeightDesc":"",
             "desc":"silver surahi set with an antique polish(black) embroided with designs.",
             "dimension":"size :height 10\" - 12\".(regular).including glass.(regular)",
             "components":"1-surahi pot 1-glass",
@@ -194,6 +839,9 @@
             "coverPage":[]
             },
         "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
             "desc":"silver surahi set with an antique polish(black) embroided with designs.",
             "dimension":"size :height 10\" - 12\".(regular).including glass.(regular)",
             "components":"1-surahi pot 1-glass",
@@ -247,6 +895,9 @@
             "coverPage":[]
             },
         "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
             "desc":"silver surahi set with an antique polish(black) embroided with designs.",
             "dimension":"size :height 10\" - 12\".(regular).including glass.(regular)",
             "components":"1-surahi pot 1-glass",
@@ -261,7 +912,636 @@
 
             }
                     ]
+    },
+
+    {
+        "imageId":"su-fb-img-1",  
+        "imageTitle":"antique fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img1.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img1.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img1.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "fruit bowl",
+                    "antique fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/fruitBowl",
+                        "/search/antiqueFruitBowl",
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"antique fruit bowl",
+        "secondaryCategory":"fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils",
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl",
+                             "antique fruit bowl"],
+        "searchTags":["antique fruit bowl",
+                        "fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"antique_fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"true",
+            "coverPage":["silver utensils page"]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl set with an antique polish(black) embroided with designs.",
+            "dimension":"size :height 4\" - 8\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 400grms-(regular size-8\")/700-800 grms(size-12\") lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-2",  
+        "imageTitle":"antique fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img2.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img2.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img2.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "fruit bowl",
+                    "antique fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/fruitBowl",
+                        "/search/antiqueFruitBowl",
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"antique fruit bowl",
+        "secondaryCategory":"fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils",
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl",
+                             "antique fruit bowl"],
+        "searchTags":["antique fruit bowl",
+                        "fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"antique_fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl set with an antique polish(black) embroided with designs.",
+            "dimension":"size :height  6\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 500grms-(regular size-8\")/700-800 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-3",  
+        "imageTitle":"antique fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img3.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img3.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img3.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "fruit bowl",
+                    "antique fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/fruitBowl",
+                        "/search/antiqueFruitBowl",
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"antique fruit bowl",
+        "secondaryCategory":"fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils",
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl",
+                             "antique fruit bowl"],
+        "searchTags":["antique fruit bowl",
+                        "fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"antique_fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl set with an antique polish(black) embroided with designs.",
+            "dimension":"size :height  6\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 500grms-(regular size-8\")/700-800 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-4",  
+        "imageTitle":"fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img4.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img4.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img4.jpg",
+        "category":["silver utensils",           
+                    "fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",                       
+                        "/search/fruitBowl",                       
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"fruit bowl",
+        "secondaryCategory":"antique fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "primaryPageView":["silver utensils",             
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl"],
+        "searchTags":["fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"true",
+            "coverPage":["silver utensils page"]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl with a net engraving cut design border, high mirror polish(white) plain design.",
+            "dimension":"size :height  8\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 500grms-(regular size-8\")/700 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-5",  
+        "imageTitle":"fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img5.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img5.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img5.jpg",
+        "category":["silver utensils",           
+                    "fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",                       
+                        "/search/fruitBowl",                       
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"fruit bowl",
+        "secondaryCategory":"antique fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "primaryPageView":["silver utensils",             
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl"],
+        "searchTags":["fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl with an embroidery design border, high mirror polish(white) plain design.",
+            "dimension":"size :height  8\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 500grms-(regular size-8\")/700 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-6",  
+        "imageTitle":"antique fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img6.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img6.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img6.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "fruit bowl",
+                    "antique fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/fruitBowl",
+                        "/search/antiqueFruitBowl",
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"antique fruit bowl",
+        "secondaryCategory":"fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils",
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl",
+                             "antique fruit bowl"],
+        "searchTags":["antique fruit bowl",
+                        "fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"antique_fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl set with an antique polish(black) embroided with designs.",
+            "dimension":"size :height  6\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 500grms-(regular size-8\")/800 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-7",  
+        "imageTitle":"fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img7.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img7.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img7.jpg",
+        "category":["silver utensils",           
+                    "fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",                       
+                        "/search/fruitBowl",                       
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"fruit bowl",
+        "secondaryCategory":"antique fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "primaryPageView":["silver utensils",             
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl"],
+        "searchTags":["fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl with a full fody embroidery design, high polish(white) plain design.",
+            "dimension":"size :height  8\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 500grms-(regular size-8\")/700 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-8",  
+        "imageTitle":"fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img8.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img8.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img8.jpg",
+        "category":["silver utensils",           
+                    "fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",                       
+                        "/search/fruitBowl",                       
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"fruit bowl",
+        "secondaryCategory":"antique fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "primaryPageView":["silver utensils",             
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl"],
+        "searchTags":["fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl with a full fody engraved net cut design, high polish(white) design.",
+            "dimension":"size :height  8\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 350grms-(regular size-8\")/500 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-9",  
+        "imageTitle":"fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img9.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img9.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img9.jpg",
+        "category":["silver utensils",           
+                    "fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",                       
+                        "/search/fruitBowl",                       
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"fruit bowl",
+        "secondaryCategory":"antique fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "primaryPageView":["silver utensils",             
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl"],
+        "searchTags":["fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl with a minimal embroidery design, high polish(white) design.",
+            "dimension":"size :height  8\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 250grms-(regular size-8\")/400 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-10",  
+        "imageTitle":"antique fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img10.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img10.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img10.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "fruit bowl",
+                    "antique fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/fruitBowl",
+                        "/search/antiqueFruitBowl",
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"antique fruit bowl",
+        "secondaryCategory":"fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils",
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl",
+                             "antique fruit bowl"],
+        "searchTags":["antique fruit bowl",
+                        "fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"antique_fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"the size of the fruit basket can be customised from regular size(12\")to as per required",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"the weight of the customised basket will therefore vary from the regular size basket.",
+            "desc":"silver fruit bowl set with an antique polish(black) embroided with designs.",
+            "dimension":"size :height  10\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 600grms-(regular size-8\")/1000 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-11",  
+        "imageTitle":"antique fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img11.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img11.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img11.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "fruit bowl",
+                    "antique fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/fruitBowl",
+                        "/search/antiqueFruitBowl",
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"antique fruit bowl",
+        "secondaryCategory":"fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils",
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl",
+                             "antique fruit bowl"],
+        "searchTags":["antique fruit bowl",
+                        "fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"antique_fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl set with an antique polish(black) embroided with designs.",
+            "dimension":"size :height  10\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 400grms-(regular size-8\")/700 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-fb-img-12",  
+        "imageTitle":"fruit bowl",
+        "imageSrc":"/silver_utensilsMobile/fruit_bowl/img12.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/fruit_bowl/img12.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/fruit_bowl/img12.jpg",
+        "category":["silver utensils",           
+                    "fruit bowl",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",                       
+                        "/search/fruitBowl",                       
+                        "/homeDecor/#fruitBowl"],
+        "primaryCategory":"fruit bowl",
+        "secondaryCategory":"antique fruit bowl",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "primaryPageView":["silver utensils",             
+                    "home decor"
+                    ],
+        "dynamicPageView":["fruit bowl"],
+        "searchTags":["fruit bowl",
+                    "fruit bowl as gift item"],
+        
+        "_fetchTag":"fruit_bowl",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"silver fruit bowl with a full body embroidery design and nut cut engraving designd border, high polish(white) design.",
+            "dimension":"size :height  8\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
+            "components":"1-fruit bowl",
+            "additionalImageInfo":"weight : 250grms-(regular size-8\")/400 grms(size-12\")lengthwise.",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
     }
+
+
+
+
+
+
+
+
+
+
+
 
 
    

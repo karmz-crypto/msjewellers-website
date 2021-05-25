@@ -138,8 +138,8 @@ a:link {
                       
                     
                     </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <form class="d-flex" action='/search' method="get">
+                      <input class="form-control me-2" type="search" placeholder="Search" name="queryString" value="" aria-label="Search">
                       <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                   </div>
@@ -149,14 +149,16 @@ a:link {
         
         <div class="container shadow p-3 mb-3 bg-light"">
           <div class="row">
+            <% if(pageTitle!=='Error'){ if(pageTitle!=='Search'){%>
+
             <div class="bg-light text-capitalize text-secondary col-5" style="font-size:smaller;">
-              <a href="#" class="text-capitalize text-info">Explore <%= pageLabel ; %> </a>
-              
-            </div>
+              <a href="#" class="text-capitalize text-info">Explore <%= pageLabel ; %> </a>              
+            </div> <%}}%>
+            
             <div class="bg-light text-capitalize text-secondary col-7">
               <h5><%= pageLabel ; %></h5>
             </div>
-
+            
           </div>
          
           
@@ -333,8 +335,8 @@ a:link {
     </div><!--footer top div-->
 
     <!--footer ends-->
-
-   <script type="text/javascript" src="/fetchapi.js" async></script> 
+    <script type="text/javascript" src="/search.js"></script>
+   <script type="text/javascript" src="/fetchapi.js"></script> 
   </body>
 </html>
 <!--footer section ends -->
