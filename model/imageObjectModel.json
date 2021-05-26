@@ -16,7 +16,7 @@
                         "/search/dinnerSet",
                         "/search/antiqueDinnerSet"],
         "primaryCategory":"antique dinner set",
-        "secondaryCategory":"dinner set",
+        "secondaryCategory":"plain dinner set",
         "derivedCategory": ["antique silver utensils","silver utensils"],
         "primaryPageView":["silver utensils",
                     "antique silver utensils"
@@ -26,7 +26,7 @@
         "searchTags":["antique dinner set",
                         "dinner set",
                     "dinner set as gift item","antique silver utensils"],
-        
+        "urlSearchTag":["antiqueDinnerSet","dinnerSet"],
         "_fetchTag":"antique_dinner_set",
         "_cover_image":{
             "isCoverImage":"true",
@@ -68,7 +68,7 @@
                         "/search/dinnerSet",
                         "/search/antiqueDinnerSet"],
         "primaryCategory":"antique dinner set",
-        "secondaryCategory":"dinner set",
+        "secondaryCategory":"plain dinner set",
         "derivedCategory": ["antique silver utensils","silver utensils"],
         "primaryPageView":["silver utensils",
                     "antique silver utensils"
@@ -78,11 +78,11 @@
         "searchTags":["antique dinner set",
                         "dinner set",
                     "dinner set as gift item","antique silver utensils"],
-        
+        "urlSearchTag":["antiqueDinnerSet","dinnerSet"],
         "_fetchTag":"antique_dinner_set",
         "_cover_image":{
-            "isCoverImage":"false",
-            "coverPage":[]
+            "isCoverImage":"true",
+            "coverPage":["antique silver utensils"]
             },
         "imageDesc":{
             "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
@@ -130,7 +130,7 @@
         "searchTags":["plain dinner set",
                         "dinner set",
                     "dinner set as gift item","silver utensils"],
-        
+        "urlSearchTag":["dinnerSet","plainDinnerSet"],
         "_fetchTag":"plain_dinner_set",
         "_cover_image":{
             "isCoverImage":"true",
@@ -184,7 +184,7 @@
         "searchTags":["plain dinner set",
                         "dinner set",
                     "dinner set as gift item","silver utensils"],
-        
+        "urlSearchTag":["dinnerSet","plainDinnerSet"],
         "_fetchTag":"plain_dinner_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -236,7 +236,7 @@
         "searchTags":["plain dinner set",
                         "dinner set",
                     "dinner set as gift item","silver utensils"],
-        
+        "urlSearchTag":["dinnerSet","plainDinnerSet"],
         "_fetchTag":"plain_dinner_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -288,7 +288,7 @@
         "searchTags":["plain dinner set",
                         "dinner set",
                     "dinner set as gift item","silver utensils"],
-        
+        "urlSearchTag":["dinnerSet","plainDinnerSet"],
         "_fetchTag":"plain_dinner_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -335,7 +335,7 @@
         "dynamicPageView":["cutlery set"],
         "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
             "knife"],
-        
+        "urlSearchTag":["cutlerySet"],
         "_fetchTag":"cutlery_set",
         "_cover_image":{
             "isCoverImage":"true",
@@ -382,7 +382,7 @@
         "dynamicPageView":["cutlery set"],
         "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
             "knife"],
-        
+        "urlSearchTag":["cutlerySet"],
         "_fetchTag":"cutlery_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -429,7 +429,7 @@
         "dynamicPageView":["cutlery set"],
         "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
             "knife"],
-        
+        "urlSearchTag":["cutlerySet"],
         "_fetchTag":"cutlery_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -476,7 +476,7 @@
         "dynamicPageView":["cutlery set"],
         "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
             "knife"],
-        
+        "urlSearchTag":["cutlerySet"],
         "_fetchTag":"cutlery_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -524,7 +524,7 @@
         "dynamicPageView":["cutlery set"],
         "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
             "knife"],
-        
+        "urlSearchTag":["cutlerySet"],
         "_fetchTag":"cutlery_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -571,7 +571,7 @@
         "dynamicPageView":["cutlery set"],
         "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
             "knife"],
-        
+        "urlSearchTag":["cutlerySet"],
         "_fetchTag":"cutlery_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -618,7 +618,7 @@
         "dynamicPageView":["cutlery set"],
         "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
             "knife"],
-        
+        "urlSearchTag":["cutlerySet"],
         "_fetchTag":"cutlery_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -665,7 +665,7 @@
         "dynamicPageView":["cutlery set"],
         "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
             "knife"],
-        
+        "urlSearchTag":["cutlerySet"],
         "_fetchTag":"cutlery_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -712,7 +712,7 @@
         "dynamicPageView":["cutlery set"],
         "searchTags":["cutlery set", "spoon","fork","serving spoon","rice spoon","daal spoon","curry spoon",
             "knife"],
-        
+        "urlSearchTag":["cutlerySet"],
         "_fetchTag":"cutlery_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -776,7 +776,7 @@
         "searchTags":["antique surahi set",
                         "surahi set",
                     "surahi set as gift item","antique silver utensils"],
-        
+        "urlSearchTag":["surahiSet"],
         "_fetchTag":"antique_surahi_set",
         "_cover_image":{
             "isCoverImage":"true",
@@ -832,11 +832,11 @@
         "searchTags":["antique surahi set",
                         "surahi set",
                     "surahi set as gift item"],
-        
+        "urlSearchTag":["surahiSet"],
         "_fetchTag":"antique_surahi_set",
         "_cover_image":{
-            "isCoverImage":"false",
-            "coverPage":[]
+            "isCoverImage":"true",
+            "coverPage":["antique silver utensils"]
             },
         "imageDesc":{
             "detailDimensionDesc":"",
@@ -888,7 +888,7 @@
         "searchTags":["antique surahi set",
                         "surahi set",
                     "surahi set as gift item"],
-        
+        "urlSearchTag":["surahiSet"],
         "_fetchTag":"antique_surahi_set",
         "_cover_image":{
             "isCoverImage":"false",
@@ -943,7 +943,7 @@
         "searchTags":["antique fruit bowl",
                         "fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl","antiqueFruitBowl"],
         "_fetchTag":"antique_fruit_bowl",
         "_cover_image":{
             "isCoverImage":"true",
@@ -998,11 +998,11 @@
         "searchTags":["antique fruit bowl",
                         "fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl","antiqueFruitBowl"],
         "_fetchTag":"antique_fruit_bowl",
         "_cover_image":{
-            "isCoverImage":"false",
-            "coverPage":[]
+            "isCoverImage":"true",
+            "coverPage":["antique silver utensils"]
             },
         "imageDesc":{
             "detailDimensionDesc":"",
@@ -1053,7 +1053,7 @@
         "searchTags":["antique fruit bowl",
                         "fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl","antiqueFruitBowl"],
         "_fetchTag":"antique_fruit_bowl",
         "_cover_image":{
             "isCoverImage":"false",
@@ -1101,7 +1101,7 @@
         "dynamicPageView":["fruit bowl"],
         "searchTags":["fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl"],
         "_fetchTag":"fruit_bowl",
         "_cover_image":{
             "isCoverImage":"true",
@@ -1149,7 +1149,7 @@
         "dynamicPageView":["fruit bowl"],
         "searchTags":["fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl"],
         "_fetchTag":"fruit_bowl",
         "_cover_image":{
             "isCoverImage":"false",
@@ -1204,7 +1204,7 @@
         "searchTags":["antique fruit bowl",
                         "fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl","antiqueFruitBowl"],
         "_fetchTag":"antique_fruit_bowl",
         "_cover_image":{
             "isCoverImage":"false",
@@ -1252,7 +1252,7 @@
         "dynamicPageView":["fruit bowl"],
         "searchTags":["fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl"],
         "_fetchTag":"fruit_bowl",
         "_cover_image":{
             "isCoverImage":"false",
@@ -1300,7 +1300,7 @@
         "dynamicPageView":["fruit bowl"],
         "searchTags":["fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl"],
         "_fetchTag":"fruit_bowl",
         "_cover_image":{
             "isCoverImage":"false",
@@ -1348,7 +1348,7 @@
         "dynamicPageView":["fruit bowl"],
         "searchTags":["fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl"],
         "_fetchTag":"fruit_bowl",
         "_cover_image":{
             "isCoverImage":"false",
@@ -1403,7 +1403,7 @@
         "searchTags":["antique fruit bowl",
                         "fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl","antiqueFruitBowl"],
         "_fetchTag":"antique_fruit_bowl",
         "_cover_image":{
             "isCoverImage":"false",
@@ -1458,7 +1458,7 @@
         "searchTags":["antique fruit bowl",
                         "fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl","antiqueFruitBowl"],
         "_fetchTag":"antique_fruit_bowl",
         "_cover_image":{
             "isCoverImage":"false",
@@ -1506,7 +1506,7 @@
         "dynamicPageView":["fruit bowl"],
         "searchTags":["fruit bowl",
                     "fruit bowl as gift item"],
-        
+        "urlSearchTag":["fruitBowl"],
         "_fetchTag":"fruit_bowl",
         "_cover_image":{
             "isCoverImage":"false",

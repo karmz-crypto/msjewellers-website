@@ -9,6 +9,7 @@ const indexController = require('./controller/indexController');
 const silverUtensilsController = require('./controller/silverUtensilsController');
 const silverJewelleryController = require('./controller/silverJewelleryController');
 const imageDisplayController = require('./controller/imageDisplayController');
+const antiqueSilverUtensilsController = require('./controller/antiqueSilverUtensilsController');
 const searchController = require('./controller/searchController');
 //controller page link ends 
 const port = process.env.PORT || 5000;
@@ -41,7 +42,8 @@ app.get('/imageObjectModel',(req,res)=>{
     res.sendFile(path.join(__dirname,'model/imageObjectModel.json'));
 });
 app.get('/image/:id',imageDisplayController.getImageDisplay);
-app.get('/search',searchController.getSearch);
+app.get('/search/:id',searchController.getSearch);
+app.get('/antiqueSilverUtensils',antiqueSilverUtensilsController.getAntiqueSilverUtensils);
 app.get('/*',(req,res)=>{
     if(res.status===404){
         res.send('error file not found');

@@ -8,9 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>    
+   
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <style>
@@ -98,8 +97,9 @@ a:link {
     <div class="conatiner bg-white">
     <div class="container bg-secondary my-2 p-2">
         <header>
-            <h1 >Galleria</h1>
-            <span>An Enterprise Of MS Jewellers</span>
+            <!--<h1 >Galleria</h1>
+            <span>An Enterprise Of MS Jewellers</span>-->
+            <img src="/logo/logo_transparent.png" class="img-fluid mx-auto" style="width: 200px; height: 200px;">
         </header>
         
     </div>
@@ -109,7 +109,7 @@ a:link {
     </div>
     <div class="container sticky-top bg-white my-1 p-2">
         <nav>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="/">MSJ</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -118,7 +118,7 @@ a:link {
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link " href="/silverUtensils">Silver Utensils</a>
@@ -138,15 +138,17 @@ a:link {
                       
                     
                     </ul>
-                    <form class="d-flex" action='/search' method="get">
-                      <input class="form-control me-2" type="search" placeholder="Search" name="queryString" value="" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <!--<form class="d-flex" action='/search' method="get">-->
+                      <!--<input class="form-control me-2" type="search" placeholder="Search" name="queryString" value="" aria-label="Search">-->
+                      <!--<button class="btn btn-outline-success" onclick="init(searchItems)">Search</button>-->
+                      <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#searchModal">
+                      Search
+                    </button>
                   </div>
                 </div>
               </nav>
-        </nav>
-        
+        </nav>    
         <div class="container shadow p-3 mb-3 bg-light"">
           <div class="row">
             <% if(pageTitle!=='Error'){ if(pageTitle!=='Search'){%>
@@ -158,10 +160,7 @@ a:link {
             <div class="bg-light text-capitalize text-secondary col-7">
               <h5><%= pageLabel ; %></h5>
             </div>
-            
-          </div>
-         
-          
+          </div> 
         </div>
     </div>
     
@@ -171,6 +170,39 @@ a:link {
 <!--ejs page insertion -->
 
 <%- body %>
+
+<!-- Modal -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="searchModalLabel">Search Links</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container my-1">
+          <div class="row">
+            <div class="col-6">
+              <a href="/search/dinnerSet"><p class="text-capitalize text-center">dinner sets</p></a>
+              <a href="/search/antiqueDinnerSet"><p class="text-capitalize text-center">antique dinner set</p></a>
+              <a href="/search/plainDinnerSet"><p class="text-capitalize text-center">plain dinner sets</p></a>
+              <a href="/search/jugSet"><p class="text-capitalize text-center">jug sets</p></a>
+              <a href="/search/antiqueJugSet"><p class="text-capitalize text-center">antique jug sets</p></a>
+              <a href="/search/tesSet"><p class="text-capitalize text-center">tea sets</p></a>
+              <a href="/search/glassSet"><p class="text-capitalize text-center">glass sets</p></a>
+              <a href="/search/fruitBowl"><p class="text-capitalize text-center">fruit bowl</p></a>
+              <a href="/search/antiqueFruitBowl"><p class="text-capitalize text-center">antique fruit bowl</p></a>
+              <a href="/search/surahiSet"><p class="text-capitalize text-center">surahi sets</p></a>
+              <a href="/festiveCollections"><p class="text-capitalize text-center">festive collections</p></a>
+              <a href="/search/silverIdols"><p class="text-capitalize text-center">silver idols</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal ends here -->
 
 <!--ejs page insertion-->
 
@@ -328,15 +360,21 @@ a:link {
     </div><!--content div-->
     <div class="bg-light">
     <div class="container bg-secondary"><!--bottom div of footer-->
-      <p class="text-capitalize text-center lh-base fs-3 p-2"> <strong>galleria</strong> <span style="font-size: small;">an enterprise of MS jewellers</span> </p>
+      <div class="d-flex justify-content-center">
+        <img src="/logo/logo_transparent.png" class="img-fluid mx-auto" style="width: 200px; height: 200px;">
+      </div>
+      
+      <p class="text-capitalize text-center lh-base fs-3 p-2"> <span style="font-size: small;">an enterprise of MS jewellers</span> </p>
       <p class="text-center">© 2021</p>
     </div>
     </div><!--botton div of footer-->
     </div><!--footer top div-->
 
     <!--footer ends-->
-    <script type="text/javascript" src="/search.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous" ></script>
    <script type="text/javascript" src="/fetchapi.js"></script> 
+   
+
   </body>
 </html>
 <!--footer section ends -->

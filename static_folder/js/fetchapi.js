@@ -1,7 +1,7 @@
 
-$(document).ready(()=>{
-    console.log('js is connected fetch' );
-});
+window.onload=function(){
+    console.log('js is runing in fetchapi');
+};
     
 async function getImage (event){  
    
