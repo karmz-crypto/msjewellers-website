@@ -105,6 +105,321 @@
     },
 
     {
+        "imageId":"su-ads-img-3",  
+        "imageTitle":"antique dinner set",
+        "imageSrc":"/silver_utensilsMobile/antique_dinner_set/img3.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_dinner_set/img3.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_dinner_set/img3.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"antique dinner set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["antique dinner set",
+                        "dinner set",
+                    "dinner set as gift item","antique silver utensils"],
+        "urlSearchTag":["antiqueDinnerSet","dinnerSet"],
+        "_fetchTag":"antique_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver dinner set with an antique polish(black) embroided designed strips all arond the edges of the dinner plate and similar design in all the set item .",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1250grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ads-img-4",  
+        "imageTitle":"antique dinner set",
+        "imageSrc":"/silver_utensilsMobile/antique_dinner_set/img4.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_dinner_set/img4.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_dinner_set/img4.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"antique dinner set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["antique dinner set",
+                        "dinner set",
+                    "dinner set as gift item","antique silver utensils"],
+        "urlSearchTag":["antiqueDinnerSet","dinnerSet"],
+        "_fetchTag":"antique_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver dinner set with an antique polish(black) strip embroided with designs all around the edges of the dinner plate and similar design exist on the set item .",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1250grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ads-img-5",  
+        "imageTitle":"antique dinner set",
+        "imageSrc":"/silver_utensilsMobile/antique_dinner_set/img5.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_dinner_set/img5.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_dinner_set/img5.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"antique dinner set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["antique dinner set",
+                        "dinner set",
+                    "dinner set as gift item","antique silver utensils"],
+        "urlSearchTag":["antiqueDinnerSet","dinnerSet"],
+        "_fetchTag":"antique_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver dinner set with an antique polish(black) diamond embroidery designs all around the edges of the dinner plate and similar design exist on the set item .",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1250grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ads-img-6",  
+        "imageTitle":"antique dinner set",
+        "imageSrc":"/silver_utensilsMobile/antique_dinner_set/img6.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_dinner_set/img6.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_dinner_set/img6.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"antique dinner set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["antique dinner set",
+                        "dinner set",
+                    "dinner set as gift item","antique silver utensils"],
+        "urlSearchTag":["antiqueDinnerSet","dinnerSet"],
+        "_fetchTag":"antique_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"flase",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver dinner set with an antique polish(black) floral motifs embroidery designs all around the round edges of the dinner plate  and similar design exist on the set item .",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1250grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ads-img-7",  
+        "imageTitle":"antique dinner set",
+        "imageSrc":"/silver_utensilsMobile/antique_dinner_set/img7.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_dinner_set/img7.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_dinner_set/img7.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"antique dinner set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["antique dinner set",
+                        "dinner set",
+                    "dinner set as gift item","antique silver utensils"],
+        "urlSearchTag":["antiqueDinnerSet","dinnerSet"],
+        "_fetchTag":"antique_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver dinner set with an antique polish(black) dense embroided designed of floral motifs all arond the flattened edges of the dinner plate and similar design in all the set item .",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1250grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ads-img-8",  
+        "imageTitle":"antique dinner set",
+        "imageSrc":"/silver_utensilsMobile/antique_dinner_set/img8.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/antique_dinner_set/img8.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/antique_dinner_set/img8.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",
+                    "dinner set",
+                    "antique dinner set"
+                    ],
+        "_url":["/silverUtensils",
+                        "/antiqueSilverUtensils",
+                        "/search/dinnerSet",
+                        "/search/antiqueDinnerSet"],
+        "primaryCategory":"antique dinner set",
+        "secondaryCategory":"plain dinner set",
+        "derivedCategory": ["antique silver utensils","silver utensils"],
+        "primaryPageView":["silver utensils",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["dinner set",
+                             "antique dinner set"],
+        "searchTags":["antique dinner set",
+                        "dinner set",
+                    "dinner set as gift item","antique silver utensils"],
+        "urlSearchTag":["antiqueDinnerSet","dinnerSet"],
+        "_fetchTag":"antique_dinner_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"size of dinner plate available from 10\"-14\" and bowl can be selected accordingly from 3\"-4\" size.",
+            "detailComponentsDesc" :"the components can be customized by adding or removing an item eg. number of bowls added or removed or salad/dahiwada plate added or removed.",
+            "detailWeightDesc":"the weight of the set will vary according to customization ranging from 900grm-1600grm approx",
+            "desc":"silver dinner set with an antique polish(black) embroided designed florals all arond the edges of the dinner plate and similar design in all the set item .",
+            "dimension":"size : dinner plate 10\" - 12\".(regular). bowl 3\"-3.5\".(regular)",
+            "components":"1-dinner plate, 2-bowl, 1-salad plate(optional), 1-glass, 1-spoon, 1fork(optional).",
+            "additionalImageInfo":"weight : 1250grms-(regular size-12\" dinner plate).",
+            "conditionApplyInfo":"the weight of the item may not be exact it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+
+
+
+    {
         "imageId":"su-pds-img-1",  
         "imageTitle":"plain dinner set",
         "imageSrc":"/silver_utensilsMobile/plain_dinner_set/img1.jpg",
@@ -1516,7 +1831,7 @@
             "detailDimensionDesc":"",
             "detailComponentsDesc":"",
             "detailWeightDesc":"",
-            "desc":"silver fruit bowl with a full body embroidery design and nut cut engraving designd border, high polish(white) design.",
+            "desc":"silver fruit bowl with a full body embroidery design and net cut engraving designd border, high polish(white) design.",
             "dimension":"size :height  8\".(regular). length: 8\"-12\". depth of bowl will be approx the height. ",
             "components":"1-fruit bowl",
             "additionalImageInfo":"weight : 250grms-(regular size-8\")/400 grms(size-12\")lengthwise.",
@@ -1530,7 +1845,486 @@
 
             }
                     ]
+    },
+
+    {
+        "imageId":"su-ajs-img-1",  
+        "imageTitle":"antique jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img1.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img1.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img1.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"antique jug set",
+        "secondaryCategory":"plain jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "primaryPageView":["silver utensils",             
+                    "home decor",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["jug set"],
+        "searchTags":["fruit bowl",
+                    "fruit bowl as gift item"],
+        "urlSearchTag":["jugSet","antiqueJugSet"],
+        "_fetchTag":"antique_jug_set",
+        "_cover_image":{
+            "isCoverImage":"true",
+            "coverPage":["silver utensils page"]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 1 ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"silver jug set with a full body embroidery design of floral motifs alternating with diamond engraving, and antique(black) polish.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1300 grm (1-jug(600-650grm)/4-glass(125-150grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ajs-img-2",  
+        "imageTitle":"antique jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img2.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img2.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img2.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"antique jug set",
+        "secondaryCategory":"plain jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "primaryPageView":["silver utensils",             
+                    "home decor",
+                    "antique silver utensils"
+                    ],
+        "dynamicPageView":["jug set"],
+        "searchTags":["fruit bowl",
+                    "fruit bowl as gift item"],
+        "urlSearchTag":["jugSet","antiqueJugSet"],
+        "_fetchTag":"antique_jug_set",
+        "_cover_image":{
+            "isCoverImage":"true",
+            "coverPage":["antique silver utensils"]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 1 ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"silver jug set with a full body embroidery design,with curved line longitudinally covering whole body, with antique(black) polish",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1300 grm (1-jug(600-650grm)/4-glass(125-150grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ajs-img-3",  
+        "imageTitle":"antique jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img3.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img3.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img3.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"antique jug set",
+        "secondaryCategory":"plain jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","antiqueJugSet"],
+        "_fetchTag":"antique_jug_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 1 ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"silver jug set with a full body embroidery design,with deep carving of random floral motifs covering whole body, with antique(black) polish",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1300 grm (1-jug(600-650grm)/4-glass(125-150grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ajs-img-4",  
+        "imageTitle":"antique jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img4.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img4.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img4.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"antique jug set",
+        "secondaryCategory":"plain jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","antiqueJugSet"],
+        "_fetchTag":"antique_jug_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 1 ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"silver jug set with a full body embroidery design of leaf motifs with dull look antique polish covering whole body.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1300 grm (1-jug(600-650grm)/4-glass(125-150grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ajs-img-5",  
+        "imageTitle":"antique jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img5.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img5.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img5.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"antique jug set",
+        "secondaryCategory":"plain jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","antiqueJugSet"],
+        "_fetchTag":"antique_jug_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"silver jug set with a half body embroidery design of leaf motifs along the base with high polish covering along the neck.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1300 grm (1-jug(600-650grm)/4-glass(125-150grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ajs-img-6",  
+        "imageTitle":"antique jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img6.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img6.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img6.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"antique jug set",
+        "secondaryCategory":"plain jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","antiqueJugSet"],
+        "_fetchTag":"antique_jug_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"silver jug set with a half body embroidery design of floral motifs along the base with high polish covering along the neck.The design is a vintage mughal design",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600-650grm)/4-glass(100-125grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ajs-img-7",  
+        "imageTitle":"antique jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img7.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img7.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img7.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"antique jug set",
+        "secondaryCategory":"plain jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","antiqueJugSet"],
+        "_fetchTag":"antique_jug_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" Antique silver jug set with a center body embroidery design of random abstract embroidery with high polish on both the sides of embroidery.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1300 grm (1-jug(700-650grm)/4-glass(120-150grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ajs-img-8",  
+        "imageTitle":"antique jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img8.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img8.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img8.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"antique jug set",
+        "secondaryCategory":"plain jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","antiqueJugSet"],
+        "_fetchTag":"antique_jug_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" Antique silver jug set with a full body embroidery design of floral embroidery with antique polish and antique dull polish through out the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1400 grm (1-jug(700-750grm)/4-glass(125-150grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ajs-img-9",  
+        "imageTitle":"antique jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img9.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img9.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img9.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"antique jug set",
+        "secondaryCategory":"plain jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","antiqueJugSet"],
+        "_fetchTag":"antique_jug_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" Antique silver jug set with a full body embroidery design of abstract embroidery with antique polish along the embroidery and high polish on the abstract enbroidery of the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1400 grm (1-jug(700-750grm)/4-glass(125-150grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-ajs-img-10",  
+        "imageTitle":"antique jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img10.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img10.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img10.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"antique jug set",
+        "secondaryCategory":"plain jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","antiqueJugSet"],
+        "_fetchTag":"antique_jug_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" Antique silver jug set with a full body embroidery design of floral embroidery with antique polish along the embroidery and dull antique polish in between the enbroidery of the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1400 grm (1-jug(700-750grm)/4-glass(125-150grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
     }
+
+
+
+
+
 
 
 
