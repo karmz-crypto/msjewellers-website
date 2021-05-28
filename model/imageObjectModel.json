@@ -1856,12 +1856,14 @@
         "category":["silver utensils",
                     "antique silver utensils",           
                     "jug set",
+                    "palin jug set",
                     "glass set",
                     "home decor"
                     ],
         "_url":["/silverUtensils",
                     "/antiqueSilverUtensils",                      
-                        "/search/jugSet", 
+                        "/search/jugSet",
+                        "/search/plainJugSet", 
                         "/serach/glassSet",                      
                         "/homeDecor"],
         "primaryCategory":"antique jug set",
@@ -1909,12 +1911,14 @@
         "category":["silver utensils",
                     "antique silver utensils",           
                     "jug set",
+                    "palin jug set",
                     "glass set",
                     "home decor"
                     ],
         "_url":["/silverUtensils",
                     "/antiqueSilverUtensils",                      
-                        "/search/jugSet", 
+                        "/search/jugSet",
+                        "/search/plainJugSet", 
                         "/serach/glassSet",                      
                         "/homeDecor"],
         "primaryCategory":"antique jug set",
@@ -1962,12 +1966,14 @@
         "category":["silver utensils",
                     "antique silver utensils",           
                     "jug set",
+                    "palin jug set",
                     "glass set",
                     "home decor"
                     ],
         "_url":["/silverUtensils",
                     "/antiqueSilverUtensils",                      
                         "/search/jugSet", 
+                        "/search/plainJugSet",
                         "/serach/glassSet",                      
                         "/homeDecor"],
         "primaryCategory":"antique jug set",
@@ -2008,12 +2014,14 @@
         "category":["silver utensils",
                     "antique silver utensils",           
                     "jug set",
+                    "palin jug set",
                     "glass set",
                     "home decor"
                     ],
         "_url":["/silverUtensils",
                     "/antiqueSilverUtensils",                      
-                        "/search/jugSet", 
+                        "/search/jugSet",
+                        "/search/plainJugSet", 
                         "/serach/glassSet",                      
                         "/homeDecor"],
         "primaryCategory":"antique jug set",
@@ -2054,12 +2062,14 @@
         "category":["silver utensils",
                     "antique silver utensils",           
                     "jug set",
+                    "palin jug set",
                     "glass set",
                     "home decor"
                     ],
         "_url":["/silverUtensils",
                     "/antiqueSilverUtensils",                      
-                        "/search/jugSet", 
+                        "/search/jugSet",
+                        "/search/plainJugSet", 
                         "/serach/glassSet",                      
                         "/homeDecor"],
         "primaryCategory":"antique jug set",
@@ -2100,12 +2110,14 @@
         "category":["silver utensils",
                     "antique silver utensils",           
                     "jug set",
+                    "palin jug set",
                     "glass set",
                     "home decor"
                     ],
         "_url":["/silverUtensils",
                     "/antiqueSilverUtensils",                      
-                        "/search/jugSet", 
+                        "/search/jugSet",
+                        "/search/plainJugSet", 
                         "/serach/glassSet",                      
                         "/homeDecor"],
         "primaryCategory":"antique jug set",
@@ -2146,12 +2158,14 @@
         "category":["silver utensils",
                     "antique silver utensils",           
                     "jug set",
+                    "palin jug set",
                     "glass set",
                     "home decor"
                     ],
         "_url":["/silverUtensils",
                     "/antiqueSilverUtensils",                      
-                        "/search/jugSet", 
+                        "/search/jugSet",
+                        "/search/plainJugSet", 
                         "/serach/glassSet",                      
                         "/homeDecor"],
         "primaryCategory":"antique jug set",
@@ -2192,12 +2206,14 @@
         "category":["silver utensils",
                     "antique silver utensils",           
                     "jug set",
+                    "palin jug set",
                     "glass set",
                     "home decor"
                     ],
         "_url":["/silverUtensils",
                     "/antiqueSilverUtensils",                      
-                        "/search/jugSet", 
+                        "/search/jugSet",
+                        "/search/plainJugSet", 
                         "/serach/glassSet",                      
                         "/homeDecor"],
         "primaryCategory":"antique jug set",
@@ -2238,12 +2254,14 @@
         "category":["silver utensils",
                     "antique silver utensils",           
                     "jug set",
+                    "palin jug set",
                     "glass set",
                     "home decor"
                     ],
         "_url":["/silverUtensils",
                     "/antiqueSilverUtensils",                      
-                        "/search/jugSet", 
+                        "/search/jugSet",
+                        "/search/plainJugSet", 
                         "/serach/glassSet",                      
                         "/homeDecor"],
         "primaryCategory":"antique jug set",
@@ -2284,12 +2302,14 @@
         "category":["silver utensils",
                     "antique silver utensils",           
                     "jug set",
+                    "palin jug set",
                     "glass set",
                     "home decor"
                     ],
         "_url":["/silverUtensils",
                     "/antiqueSilverUtensils",                      
-                        "/search/jugSet", 
+                        "/search/jugSet",
+                        "/search/plainJugSet", 
                         "/serach/glassSet",                      
                         "/homeDecor"],
         "primaryCategory":"antique jug set",
@@ -2319,7 +2339,494 @@
 
             }
                     ]
+    },
+
+    {
+        "imageId":"su-pjs-img-11",  
+        "imageTitle":"plain jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img11.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img11.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img11.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"plain jug set",
+        "secondaryCategory":"antique jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","plainJugSet"],
+        "_fetchTag":"plain_jug_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" Plain silver jug set with a floral engraving design of floral motifs with high polish in the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600grm)/4-glass(100grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pjs-img-12",  
+        "imageTitle":"plain jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img12.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img12.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img12.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"plain jug set",
+        "secondaryCategory":"antique jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","plainJugSet"],
+        "_fetchTag":"plain_jug_set",
+        "_cover_image":{
+            "isCoverImage":"true",
+            "coverPage":["silver utensils page"]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" Plain silver jug set with a with high polish in the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600grm)/4-glass(100grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pjs-img-13",  
+        "imageTitle":"white nakashi jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img13.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img13.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img13.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"plain jug set",
+        "secondaryCategory":"antique jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","plainJugSet"],
+        "_fetchTag":"plain_jug_set",
+        "_cover_image":{
+            "isCoverImage":"flase",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" white nakashi silver jug set with a with high polish in the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600grm)/4-glass(100grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pjs-img-14",  
+        "imageTitle":"white nakashi jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img14.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img14.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img14.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"plain jug set",
+        "secondaryCategory":"antique jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","plainJugSet"],
+        "_fetchTag":"plain_jug_set",
+        "_cover_image":{
+            "isCoverImage":"flase",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" white hammer nakashi silver jug set with a with high polish in the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600grm)/4-glass(100grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pjs-img-15",  
+        "imageTitle":"white nakashi jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img15.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img15.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img15.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"plain jug set",
+        "secondaryCategory":"antique jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","plainJugSet"],
+        "_fetchTag":"plain_jug_set",
+        "_cover_image":{
+            "isCoverImage":"flase",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml-ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" white hammer nakashi silver jug set with a with high polish in the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600grm)/4-glass(100grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pjs-img-16",  
+        "imageTitle":"white nakashi jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img16.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img16.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img16.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"plain jug set",
+        "secondaryCategory":"antique jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","plainJugSet"],
+        "_fetchTag":"plain_jug_set",
+        "_cover_image":{
+            "isCoverImage":"flase",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml-ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" white minimal hand nakashi silver jug set with a with high polish in the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600grm)/4-glass(100grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pjs-img-17",  
+        "imageTitle":"white nakashi jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img17.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img17.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img17.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"plain jug set",
+        "secondaryCategory":"antique jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","plainJugSet"],
+        "_fetchTag":"plain_jug_set",
+        "_cover_image":{
+            "isCoverImage":"flase",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml-ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" white nakashi silver jug set with a with high polish in the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600grm)/4-glass(100grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pjs-img-18",  
+        "imageTitle":"white nakashi jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img18.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img18.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img18.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"plain jug set",
+        "secondaryCategory":"antique jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","plainJugSet"],
+        "_fetchTag":"plain_jug_set",
+        "_cover_image":{
+            "isCoverImage":"flase",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml-ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":" white nakashi silver jug set with a with high polish in the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600grm)/4-glass(100grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pjs-img-20",  
+        "imageTitle":"high polish jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img20.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img20.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img20.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"plain jug set",
+        "secondaryCategory":"antique jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","plainJugSet"],
+        "_fetchTag":"plain_jug_set",
+        "_cover_image":{
+            "isCoverImage":"flase",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml-ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"high polish silver jug set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600grm)/4-glass(100grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pjs-img-19",  
+        "imageTitle":"dull engraving jug set",
+        "imageSrc":"/silver_utensilsMobile/jug_set/img19.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/jug_set/img19.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/jug_set/img19.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/serach/glassSet",                      
+                        "/homeDecor"],
+        "primaryCategory":"plain jug set",
+        "secondaryCategory":"antique jug set",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "urlSearchTag":["jugSet","plainJugSet"],
+        "_fetchTag":"plain_jug_set",
+        "_cover_image":{
+            "isCoverImage":"flase",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimension of the jug is regular size to fill in a 800ml-ltr water.",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"dull engraving silver jug set with a with high polish in the jug & glass set.",
+            "dimension":"Size : Height  Jug-10\".(regular). Glasses-6\"(regular) ",
+            "components":"1-Jug, 4-Glasses, 1-Tray(optional)",
+            "additionalImageInfo":"weight : 1200 grm (1-jug(600grm)/4-glass(100grm each)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
     }
+
+
+
+
+
+
+
 
 
 
