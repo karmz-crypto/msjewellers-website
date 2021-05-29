@@ -92,7 +92,7 @@
     </div>
 </div>  <!--closing of similar image gallery section -->
 
-
+<% if(relatedImageDisplay.length!==0){%>
 <div class="container my-3 p-2 ">
     <h5 class="text-capitalize text-secondary p-2 m-2 bg-light">
         <span class="mx-3 p-2">related image gallery</span>
@@ -105,7 +105,7 @@
 
 <div class="container my-1">
    <div class="container scrollWebKit  shadow p-3 mb-5 bg-white rounded " style="overflow: auto; white-space: nowrap;">
-       <% relatedImageDisplay.forEach(obj=>{%>
+       <% relatedImageDisplay.forEach(obj=>{ %>
        <a href="/image/<%=obj.imageId%>">
            <picture>
                <source media="(max-width:799px)" srcset="<%=obj.srcSetMobile; %>" >
@@ -116,7 +116,7 @@
    <%});%> 
    </div>
 </div>  <!--closing of similar image gallery section -->
-
+<%}%><!--closing the if -->
 <!--optional js dependencies-->
 
      <!--jquery-->
