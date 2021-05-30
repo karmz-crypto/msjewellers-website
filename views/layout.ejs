@@ -142,23 +142,20 @@ a:link {
                       <!--<input class="form-control me-2" type="search" placeholder="Search" name="queryString" value="" aria-label="Search">-->
                       <!--<button class="btn btn-outline-success" onclick="init(searchItems)">Search</button>-->
                       <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#searchModal">
-                      Search
-                    </button>
+                    
                   </div>
                 </div>
               </nav>
         </nav>    
         <div class="container shadow p-3 mb-3 bg-light"">
           <div class="row">
-            <% if(pageTitle!=='Error'){ if(pageTitle!=='Search'){%>
-
-            <div class="bg-light text-capitalize text-secondary col-5" style="font-size:smaller;">
-              <a href="#" class="text-capitalize text-info">Explore <%= pageLabel ; %> </a>              
-            </div> <%}}%>
-            
-            <div class="bg-light text-capitalize text-secondary col-7">
-              <h5><%= pageLabel ; %></h5>
+            <div class="bg-light text-capitalize text-success col-7 p-2" style="font-size:small;">
+              <p><%= pageLabel ; %></p>
+            </div>
+            <div class="bg-light text-capitalize text-success col-5" style="font-size:smaller;">
+              <button type="button" class="btn btn-outline-success btn-sm float-end" data-bs-toggle="modal" data-bs-target="#searchModal">
+                Search
+              </button>
             </div>
           </div> 
         </div>
@@ -171,12 +168,16 @@ a:link {
 
 <%- body %>
 
+
+
+
+
 <!-- Modal -->
 <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="searchModalLabel">Search Links</h5>
+        <h6 class="modal-title text-success" id="searchModalLabel">Search Links</h6>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -189,6 +190,9 @@ a:link {
               <a href="/search/jugSet"><p class="text-capitalize text-center">jug sets</p></a>
               <a href="/search/antiqueJugSet"><p class="text-capitalize text-center">antique jug sets</p></a>
               <a href="/search/tesSet"><p class="text-capitalize text-center">tea sets</p></a>
+              
+            </div>
+            <div class="col-6">
               <a href="/search/glassSet"><p class="text-capitalize text-center">glass sets</p></a>
               <a href="/search/fruitBowl"><p class="text-capitalize text-center">fruit bowl</p></a>
               <a href="/search/antiqueFruitBowl"><p class="text-capitalize text-center">antique fruit bowl</p></a>

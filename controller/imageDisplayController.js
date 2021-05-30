@@ -18,7 +18,7 @@ function renderError(res){
 function renderMethod(req,res){
     const displayObject = returnObjectMethod(req.params.id);
     res.render('imageDisplay',{
-        pageTitle:'image page',
+        pageTitle:'Image',
         pageLabel:"Image Page",
         specificImageDisplay : displayObject.displayImageObject,//this is an object
         similarImageDisplay : displayObject.similarImageObject, // this is an array of object
