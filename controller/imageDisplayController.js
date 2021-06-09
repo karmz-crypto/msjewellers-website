@@ -29,17 +29,18 @@ function renderMethod(req,res){
 
 function returnObjectMethod(id){
     var obj={similarImageObject:[],
-            relatedImageObject:[],           
+            relatedImageObject:[],
+                     
         };
     imageObjectModel.forEach(data=>{ 
         if(data.imageId===id){
             //console.log('in if');
-            obj.displayImageObject = data;    
+            obj.displayImageObject = data;  
         }
     });
     
     //var primaryCategory = obj.displayImageObject.primaryCategory;
-    imageObjectModel.forEach(data=>{
+    imageObjectModel.forEach(data=>{ // console.log('in for',obj.displayImageObject.primaryCategory);  
         if(data.primaryCategory===obj.displayImageObject.primaryCategory){
           
            obj.similarImageObject.push(data);
