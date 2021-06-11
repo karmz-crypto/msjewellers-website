@@ -2895,7 +2895,431 @@
 
             }
                     ]
+    },
+
+    {
+        "imageId":"su-pgs-img-1",  
+        "imageTitle":"plain Opni Glass",
+        "imageSrc":"/silver_utensilsMobile/glass_set/img1.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/glass_set/img1.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/glass_set/img1.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "antique glass set"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/search/glassSet",
+                        "/search/antiqueGlassSet"                     
+                        ],
+        "primaryCategory":"plain glass set",
+        "secondaryCategory":"antique glass set",
+        "derivedCategory":["antique silver utensils","silver utensils"],
+        "urlSearchTag":["glassSet","plainGlassSet"],
+        "_fetchTag":"plain_glass_set",
+        "_cover_image":{
+            "isCoverImage":"true",
+            "coverPage":["silver utensils page"]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimensions of the glass depends on its weight regularly Eg: 20grm : 2.5\", 100grm :5.5\"-6\"",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"varients of plain opni glass from straight borosil,milky,rasna to birla glass pattern.",
+            "dimension":"Size : Height Glass-2\"-6\".(regular).The Weight Of the Item can be Exceeded to 200Grms But The size will not vary proportionally",
+            "components":" 4-Glasses Set/ 6-Glasses Set with 1-Tray(optional)",
+            "additionalImageInfo":"weight : 800 grm 6-Glasses Set(600grm-With 100grm Each & 200-250 grm Tray(approx) Oval/Rectangle)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pgs-img-2",  
+        "imageTitle":"plain Opni Glass",
+        "imageSrc":"/silver_utensilsMobile/glass_set/img2.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/glass_set/img2.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/glass_set/img2.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "antique glass set"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/search/glassSet",
+                        "/search/antiqueGlassSet"                     
+                        ],
+        "primaryCategory":"plain glass set",
+        "secondaryCategory":"antique glass set",
+        "derivedCategory":["antique silver utensils","silver utensils"],
+        "urlSearchTag":["glassSet","plainGlassSet"],
+        "_fetchTag":"plain_glass_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimensions of the glass depends on its weight regularly Eg: 30grm : 2.5\", 100grm :5.5\"-6\"",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"rasna glass plain opni polish with a stand like base.",
+            "dimension":"Size : Height Glass-2\"-6\".(regular).The Weight Of the Item can be Exceeded to 200Grms But The size will not vary proportionally",
+            "components":" 4-Glasses Set/ 6-Glasses Set with 1-Tray(optional)",
+            "additionalImageInfo":"weight : 800 grm 6-Glasses Set(600grm-With 100grm Each & 200-250 grm Tray(approx) Oval/Rectangle)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pgs-img-3",  
+        "imageTitle":"plain Opni Glass(St.Borosil-Bidding)",
+        "imageSrc":"/silver_utensilsMobile/glass_set/img3.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/glass_set/img3.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/glass_set/img3.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "antique glass set"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/search/glassSet",
+                        "/search/antiqueGlassSet"                     
+                        ],
+        "primaryCategory":"plain glass set",
+        "secondaryCategory":"antique glass set",
+        "derivedCategory":["antique silver utensils","silver utensils"],
+        "urlSearchTag":["glassSet","plainGlassSet"],
+        "_fetchTag":"plain_glass_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimensions of the glass depends on its weight regularly Eg: 50grm : 3\", 100grm :5.5\"-6\"",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"plain opni straight borosil glass with opni polish and bidding around the mouth of the glass, the glass can have bidding as well as not have bidding.",
+            "dimension":"Size : Height Glass-2\"-6\".(regular).The Weight Of the Item can be Exceeded to 200Grms But The size will not vary proportionally",
+            "components":" 4-Glasses Set/ 6-Glasses Set with 1-Tray(optional)",
+            "additionalImageInfo":"weight : 800 grm 6-Glasses Set(600grm-With 100grm Each & 200-250 grm Tray(approx) Oval/Rectangle)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pgs-img-4",  
+        "imageTitle":"plain Opni Glass(Birla Glass)",
+        "imageSrc":"/silver_utensilsMobile/glass_set/img4.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/glass_set/img4.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/glass_set/img4.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "antique glass set"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/search/glassSet",
+                        "/search/antiqueGlassSet"                     
+                        ],
+        "primaryCategory":"plain glass set",
+        "secondaryCategory":"antique glass set",
+        "derivedCategory":["antique silver utensils","silver utensils"],
+        "urlSearchTag":["glassSet","plainGlassSet"],
+        "_fetchTag":"plain_glass_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimensions of the glass depends on its weight regularly Eg: 80grm : 5\", 100grm :6\"",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"plain opni birla glass with opni polish and bidding around the mouth of the glass.",
+            "dimension":"Size : Height Glass-5\"-6\".(regular).The Weight Of the Item can be Exceeded to 200Grms But The size will not vary proportionally",
+            "components":" 4-Glasses Set/ 6-Glasses Set with 1-Tray(optional)",
+            "additionalImageInfo":"weight : 800 grm 6-Glasses Set(600grm-With 100grm Each & 200-250 grm Tray(approx) Oval/Rectangle)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pgs-img-5",  
+        "imageTitle":"plain Opni Glass(Drum Glass)",
+        "imageSrc":"/silver_utensilsMobile/glass_set/img5.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/glass_set/img5.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/glass_set/img5.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "antique glass set"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/search/glassSet",
+                        "/search/antiqueGlassSet"                     
+                        ],
+        "primaryCategory":"plain glass set",
+        "secondaryCategory":"antique glass set",
+        "derivedCategory":["antique silver utensils","silver utensils"],
+        "urlSearchTag":["glassSet","plainGlassSet"],
+        "_fetchTag":"plain_glass_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimensions of the glass depends on its weight regularly Eg: 50grm : 3\", 100grm :6\"",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"plain opni drum glass with opni polish and bidding around the mouth of the glass.",
+            "dimension":"Size : Height Glass-5\"-6\".(regular).The Weight Of the Item can be Exceeded to 200Grms But The size will not vary proportionally",
+            "components":" 4-Glasses Set/ 6-Glasses Set with 1-Tray(optional)",
+            "additionalImageInfo":"weight : 800 grm 6-Glasses Set(600grm-With 100grm Each & 200-250 grm Tray(approx) Oval/Rectangle)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pgs-img-6",  
+        "imageTitle":"high polish square glass",
+        "imageSrc":"/silver_utensilsMobile/glass_set/img6.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/glass_set/img6.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/glass_set/img6.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "antique glass set"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/search/glassSet",
+                        "/search/antiqueGlassSet"                     
+                        ],
+        "primaryCategory":"plain glass set",
+        "secondaryCategory":"antique glass set",
+        "derivedCategory":["antique silver utensils","silver utensils"],
+        "urlSearchTag":["glassSet","plainGlassSet"],
+        "_fetchTag":"plain_glass_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimensions of the glass depends on its weight regularly Eg: 100grm : 5\", 150grm :6.5\"",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"high polish glass set with four prominent featuring sides.",
+            "dimension":"Size : Height Glass-5\"-6\".(regular)-125-150grm(regular).The Weight Of the Item can be Exceeded to 250Grms But The size will not vary proportionally",
+            "components":" 4-Glasses Set/ 6-Glasses Set with 1-Tray(optional)",
+            "additionalImageInfo":"weight : 950-1000 grm 6-Glasses Set(750grm-With 125grm Each & 200-250 grm Tray(approx) Oval/Rectangle)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pgs-img-7",  
+        "imageTitle":"high polish rasna glass",
+        "imageSrc":"/silver_utensilsMobile/glass_set/img7.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/glass_set/img7.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/glass_set/img7.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "antique glass set"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/search/glassSet",
+                        "/search/antiqueGlassSet"                     
+                        ],
+        "primaryCategory":"plain glass set",
+        "secondaryCategory":"antique glass set",
+        "derivedCategory":["antique silver utensils","silver utensils"],
+        "urlSearchTag":["glassSet","plainGlassSet"],
+        "_fetchTag":"plain_glass_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimensions of the glass depends on its weight regularly Eg: 100grm : 5\", 150grm :6.5\"",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"hand crafted high polish rasna glass with border nakashi at the base of the stand.",
+            "dimension":"Size : Height Glass-5\"-6\".(regular)-125-150grm(regular).The Weight Of the Item can be Exceeded to 250Grms But The size will not vary proportionally",
+            "components":" 4-Glasses Set/ 6-Glasses Set with 1-Tray(optional)",
+            "additionalImageInfo":"weight : 950-1000 grm 6-Glasses Set(750grm-With 125grm Each & 200-250 grm Tray(approx) Oval/Rectangle)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-pgs-img-8",  
+        "imageTitle":"high polish nakashi glass set",
+        "imageSrc":"/silver_utensilsMobile/glass_set/img8.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/glass_set/img8.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/glass_set/img8.jpg",
+        "category":["silver utensils",
+                    "antique silver utensils",           
+                    "jug set",
+                    "antique jug set",
+                    "glass set",
+                    "antique glass set"
+                    ],
+        "_url":["/silverUtensils",
+                    "/antiqueSilverUtensils",                      
+                        "/search/jugSet",
+                        "/search/antiqueJugSet", 
+                        "/search/glassSet",
+                        "/search/antiqueGlassSet"                     
+                        ],
+        "primaryCategory":"plain glass set",
+        "secondaryCategory":"antique glass set",
+        "derivedCategory":["antique silver utensils","silver utensils"],
+        "urlSearchTag":["glassSet","plainGlassSet"],
+        "_fetchTag":"plain_glass_set",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"The dimensions of the glass depends on its weight regularly Eg: 125grm : 5\", 150grm :6\"",
+            "detailComponentsDesc":"The glass component can be added from regular 4 glass to 6 glass or 2 glasses, alogwith the set an (optional) tray can be added",
+            "detailWeightDesc":"The weight of the set will be proportional to the number of the compopnents i.e glass and tray",
+            "desc":"white polish nakashi glass set with optional tray",
+            "dimension":"Size : Height Glass-5\"-6\".(regular)-125-150grm(regular).The Weight Of the Item can be Exceeded to 250Grms But The size will not vary proportionally",
+            "components":" 4-Glasses Set/ 6-Glasses Set with 1-Tray(optional)",
+            "additionalImageInfo":"weight : 950-1000 grm 6-Glasses Set(750grm-With 125grm Each & 200-250 grm Tray(approx) Oval/Rectangle)",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
