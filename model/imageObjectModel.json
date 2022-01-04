@@ -3580,6 +3580,102 @@
 
             }
                     ]
+    },
+
+    {
+        "imageId":"su-awb-img-3",  
+        "imageTitle":"antique water bottle",
+        "imageSrc":"/silver_utensilsMobile/water_bottle/img3.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/water_bottle/img3.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/water_bottle/img3.jpg",
+        "category":["silver utensils",           
+                    "water bottle",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",                       
+                        "/search/waterBottle",                       
+                        "/homeDecor/#waterBottle"],
+        "primaryCategory":"water bottle",
+        "secondaryCategory":"antique water bottle",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "primaryPageView":["silver utensils",             
+                    "home decor"
+                    ],
+        "dynamicPageView":["water bottle"],
+        "searchTags":["water bottle",
+                    "water bottle as gift item"],
+        "urlSearchTag":["waterBottle"],
+        "_fetchTag":"water_bottle",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"antique silver water bottle with embroided designs of random motifs.",
+            "dimension":"size :height  8\",10\",12\".(regular). ",
+            "components":"1-water bottle",
+            "additionalImageInfo":"weight : 350grms-(regular size-8\")/500 grms(size-12\")heightwise",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
+    },
+
+    {
+        "imageId":"su-awb-img-4",  
+        "imageTitle":"antique water bottle",
+        "imageSrc":"/silver_utensilsMobile/water_bottle/img4.jpg",
+        "srcSetMobile":"/silver_utensilsMobile/water_bottle/img4.jpg",
+        "srcSetWeb":"/silver_utensilsWeb/water_bottle/img4.jpg",
+        "category":["silver utensils",           
+                    "water bottle",
+                    "home decor"
+                    ],
+        "_url":["/silverUtensils",                       
+                        "/search/waterBottle",                       
+                        "/homeDecor/#waterBottle"],
+        "primaryCategory":"water bottle",
+        "secondaryCategory":"antique water bottle",
+        "derivedCategory":["antique silver utensils","home decor","silver utensils"],
+        "primaryPageView":["silver utensils",             
+                    "home decor"
+                    ],
+        "dynamicPageView":["water bottle"],
+        "searchTags":["water bottle",
+                    "water bottle as gift item"],
+        "urlSearchTag":["waterBottle"],
+        "_fetchTag":"water_bottle",
+        "_cover_image":{
+            "isCoverImage":"false",
+            "coverPage":[]
+            },
+        "imageDesc":{
+            "detailDimensionDesc":"",
+            "detailComponentsDesc":"",
+            "detailWeightDesc":"",
+            "desc":"antique silver water bottle with embroided designs of ladoo gopal",
+            "dimension":"size :height  8\",10\",12\".(regular). ",
+            "components":"1-water bottle",
+            "additionalImageInfo":"weight : 350grms-(regular size-8\")/500 grms(size-12\")heightwise",
+            "conditionApplyInfo":"the weight of the item may not be exact as stated it may vary."
+        },
+        "miscInfo":"",
+        "_comments":[
+            {"userId":"",
+             "date":"",
+             "comment":""
+
+            }
+                    ]
     }
 
 
